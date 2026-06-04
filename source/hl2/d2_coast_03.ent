@@ -9,7 +9,7 @@
 "detailvbsp" "detail.vbsp"
 "detailmaterial" "detail/detailsprites"
 "classname" "worldspawn"
-"mapversion" "6250"
+"mapversion" "6349"
 "hammerid" "0"
 }
 {
@@ -40,6 +40,7 @@
 "renderamt" "255"
 "pressuredelay" "0"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_junk/PlasticCrate01a.mdl"
 "minhealthdmg" "0"
 "mindxlevel" "0"
@@ -67,6 +68,7 @@
 "renderamt" "255"
 "pressuredelay" "0"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_c17/oildrum001.mdl"
 "minhealthdmg" "0"
 "mindxlevel" "0"
@@ -629,16 +631,6 @@
 "hammerid" "504581"
 }
 {
-"portalnumber" "1"
-"TranslucencyLimit" "0"
-"target" "window_29_fading_part"
-"PortalVersion" "1"
-"FadeStartDist" "200"
-"FadeDist" "260"
-"classname" "func_areaportalwindow"
-"hammerid" "559553"
-}
-{
 "model" "*1"
 "spawnobject" "0"
 "rendermode" "0"
@@ -665,19 +657,6 @@
 }
 {
 "model" "*2"
-"targetname" "window_29_fading_part"
-"rendermode" "0"
-"renderfx" "0"
-"rendercolor" "255 255 255"
-"renderamt" "255"
-"origin" "-3616 -6301.5 659"
-"disableshadows" "1"
-"disablereceiveshadows" "0"
-"classname" "func_illusionary"
-"hammerid" "559558"
-}
-{
-"model" "*3"
 "targetname" "window_29_lighting_panel"
 "rendermode" "10"
 "renderfx" "0"
@@ -699,6 +678,7 @@
 "renderamt" "255"
 "RandomAnimation" "0"
 "pressuredelay" "0"
+"modelscale" "1.0"
 "model" "models/props_wasteland/plasterwall029c_window01a.mdl"
 "mindxlevel" "0"
 "MinAnimTime" "5"
@@ -724,6 +704,7 @@
 "renderamt" "255"
 "RandomAnimation" "0"
 "pressuredelay" "0"
+"modelscale" "1.0"
 "model" "models/props_wasteland/plasterwall029c_window01a_bars.mdl"
 "mindxlevel" "0"
 "MinAnimTime" "5"
@@ -739,17 +720,7 @@
 "hammerid" "559572"
 }
 {
-"portalnumber" "2"
-"TranslucencyLimit" "0"
-"target" "window_30_fading_part"
-"PortalVersion" "1"
-"FadeStartDist" "200"
-"FadeDist" "260"
-"classname" "func_areaportalwindow"
-"hammerid" "559597"
-}
-{
-"model" "*4"
+"model" "*3"
 "spawnobject" "0"
 "rendermode" "0"
 "renderfx" "0"
@@ -774,20 +745,7 @@
 "OnBreak" "window_2_bars,SetBodyGroup,1,0,-1"
 }
 {
-"model" "*5"
-"targetname" "window_30_fading_part"
-"rendermode" "0"
-"renderfx" "0"
-"rendercolor" "255 255 255"
-"renderamt" "255"
-"origin" "-3488 -6301.5 659"
-"disableshadows" "1"
-"disablereceiveshadows" "0"
-"classname" "func_illusionary"
-"hammerid" "559602"
-}
-{
-"model" "*6"
+"model" "*4"
 "targetname" "window_30_lighting_panel"
 "rendermode" "10"
 "renderfx" "0"
@@ -809,6 +767,7 @@
 "renderamt" "255"
 "RandomAnimation" "0"
 "pressuredelay" "0"
+"modelscale" "1.0"
 "model" "models/props_wasteland/plasterwall029c_window01a.mdl"
 "mindxlevel" "0"
 "MinAnimTime" "5"
@@ -834,6 +793,7 @@
 "renderamt" "255"
 "RandomAnimation" "0"
 "pressuredelay" "0"
+"modelscale" "1.0"
 "model" "models/props_wasteland/plasterwall029c_window01a_bars.mdl"
 "mindxlevel" "0"
 "MinAnimTime" "5"
@@ -849,17 +809,7 @@
 "hammerid" "559616"
 }
 {
-"portalnumber" "3"
-"TranslucencyLimit" "0"
-"target" "window_31_fading_part"
-"PortalVersion" "1"
-"FadeStartDist" "200"
-"FadeDist" "260"
-"classname" "func_areaportalwindow"
-"hammerid" "559619"
-}
-{
-"model" "*7"
+"model" "*5"
 "spawnobject" "0"
 "rendermode" "0"
 "renderfx" "0"
@@ -884,20 +834,7 @@
 "OnBreak" "window_3_bars,SetBodyGroup,1,0,-1"
 }
 {
-"model" "*8"
-"targetname" "window_31_fading_part"
-"rendermode" "0"
-"renderfx" "0"
-"rendercolor" "255 255 255"
-"renderamt" "255"
-"origin" "-3232 -6301.5 659"
-"disableshadows" "1"
-"disablereceiveshadows" "0"
-"classname" "func_illusionary"
-"hammerid" "559624"
-}
-{
-"model" "*9"
+"model" "*6"
 "targetname" "window_31_lighting_panel"
 "rendermode" "10"
 "renderfx" "0"
@@ -919,6 +856,7 @@
 "renderamt" "255"
 "RandomAnimation" "0"
 "pressuredelay" "0"
+"modelscale" "1.0"
 "model" "models/props_wasteland/plasterwall029c_window01a.mdl"
 "mindxlevel" "0"
 "MinAnimTime" "5"
@@ -944,6 +882,7 @@
 "renderamt" "255"
 "RandomAnimation" "0"
 "pressuredelay" "0"
+"modelscale" "1.0"
 "model" "models/props_wasteland/plasterwall029c_window01a_bars.mdl"
 "mindxlevel" "0"
 "MinAnimTime" "5"
@@ -959,17 +898,7 @@
 "hammerid" "559638"
 }
 {
-"portalnumber" "4"
-"TranslucencyLimit" "0"
-"target" "window_32_fading_part"
-"PortalVersion" "1"
-"FadeStartDist" "200"
-"FadeDist" "260"
-"classname" "func_areaportalwindow"
-"hammerid" "559641"
-}
-{
-"model" "*10"
+"model" "*7"
 "spawnobject" "0"
 "rendermode" "0"
 "renderfx" "0"
@@ -994,20 +923,7 @@
 "OnBreak" "window_4_bars,SetBodyGroup,1,0,-1"
 }
 {
-"model" "*11"
-"targetname" "window_32_fading_part"
-"rendermode" "0"
-"renderfx" "0"
-"rendercolor" "255 255 255"
-"renderamt" "255"
-"origin" "-3170.5 -6240 659"
-"disableshadows" "1"
-"disablereceiveshadows" "0"
-"classname" "func_illusionary"
-"hammerid" "559646"
-}
-{
-"model" "*12"
+"model" "*8"
 "targetname" "window_32_lighting_panel"
 "rendermode" "10"
 "renderfx" "0"
@@ -1029,6 +945,7 @@
 "renderamt" "255"
 "RandomAnimation" "0"
 "pressuredelay" "0"
+"modelscale" "1.0"
 "model" "models/props_wasteland/plasterwall029c_window01a.mdl"
 "mindxlevel" "0"
 "MinAnimTime" "5"
@@ -1054,6 +971,7 @@
 "renderamt" "255"
 "RandomAnimation" "0"
 "pressuredelay" "0"
+"modelscale" "1.0"
 "model" "models/props_wasteland/plasterwall029c_window01a_bars.mdl"
 "mindxlevel" "0"
 "MinAnimTime" "5"
@@ -1069,17 +987,7 @@
 "hammerid" "559660"
 }
 {
-"portalnumber" "5"
-"TranslucencyLimit" "0"
-"target" "window_33_fading_part"
-"PortalVersion" "1"
-"FadeStartDist" "200"
-"FadeDist" "260"
-"classname" "func_areaportalwindow"
-"hammerid" "559663"
-}
-{
-"model" "*13"
+"model" "*9"
 "spawnobject" "0"
 "rendermode" "0"
 "renderfx" "0"
@@ -1104,20 +1012,7 @@
 "OnBreak" "window_5_bars,SetBodyGroup,1,0,-1"
 }
 {
-"model" "*14"
-"targetname" "window_33_fading_part"
-"rendermode" "0"
-"renderfx" "0"
-"rendercolor" "255 255 255"
-"renderamt" "255"
-"origin" "-3360 -5922.5 659"
-"disableshadows" "1"
-"disablereceiveshadows" "0"
-"classname" "func_illusionary"
-"hammerid" "559668"
-}
-{
-"model" "*15"
+"model" "*10"
 "targetname" "window_33_lighting_panel"
 "rendermode" "10"
 "renderfx" "0"
@@ -1139,6 +1034,7 @@
 "renderamt" "255"
 "RandomAnimation" "0"
 "pressuredelay" "0"
+"modelscale" "1.0"
 "model" "models/props_wasteland/plasterwall029c_window01a.mdl"
 "mindxlevel" "0"
 "MinAnimTime" "5"
@@ -1164,6 +1060,7 @@
 "renderamt" "255"
 "RandomAnimation" "0"
 "pressuredelay" "0"
+"modelscale" "1.0"
 "model" "models/props_wasteland/plasterwall029c_window01a_bars.mdl"
 "mindxlevel" "0"
 "MinAnimTime" "5"
@@ -1179,17 +1076,7 @@
 "hammerid" "559682"
 }
 {
-"portalnumber" "6"
-"TranslucencyLimit" "0"
-"target" "window_34_fading_part"
-"PortalVersion" "1"
-"FadeStartDist" "200"
-"FadeDist" "260"
-"classname" "func_areaportalwindow"
-"hammerid" "559685"
-}
-{
-"model" "*16"
+"model" "*11"
 "spawnobject" "0"
 "rendermode" "0"
 "renderfx" "0"
@@ -1214,20 +1101,7 @@
 "OnBreak" "window_6_bars,SetBodyGroup,1,0,-1"
 }
 {
-"model" "*17"
-"targetname" "window_34_fading_part"
-"rendermode" "0"
-"renderfx" "0"
-"rendercolor" "255 255 255"
-"renderamt" "255"
-"origin" "-3869.5 -6048 628"
-"disableshadows" "1"
-"disablereceiveshadows" "0"
-"classname" "func_illusionary"
-"hammerid" "559690"
-}
-{
-"model" "*18"
+"model" "*12"
 "targetname" "window_34_lighting_panel"
 "rendermode" "10"
 "renderfx" "0"
@@ -1249,6 +1123,7 @@
 "renderamt" "255"
 "RandomAnimation" "0"
 "pressuredelay" "0"
+"modelscale" "1.0"
 "model" "models/props_wasteland/plasterwall029c_window01a.mdl"
 "mindxlevel" "0"
 "MinAnimTime" "5"
@@ -1274,6 +1149,7 @@
 "renderamt" "255"
 "RandomAnimation" "0"
 "pressuredelay" "0"
+"modelscale" "1.0"
 "model" "models/props_wasteland/plasterwall029c_window01a_bars.mdl"
 "mindxlevel" "0"
 "MinAnimTime" "5"
@@ -1289,17 +1165,7 @@
 "hammerid" "559704"
 }
 {
-"portalnumber" "7"
-"TranslucencyLimit" "0"
-"target" "window_59_fading_part"
-"PortalVersion" "1"
-"FadeStartDist" "200"
-"FadeDist" "260"
-"classname" "func_areaportalwindow"
-"hammerid" "563698"
-}
-{
-"model" "*19"
+"model" "*13"
 "spawnobject" "0"
 "rendermode" "0"
 "renderfx" "0"
@@ -1324,20 +1190,7 @@
 "OnBreak" "window_31_bars,SetBodyGroup,1,0,-1"
 }
 {
-"model" "*20"
-"targetname" "window_59_fading_part"
-"rendermode" "0"
-"renderfx" "0"
-"rendercolor" "255 255 255"
-"renderamt" "255"
-"origin" "6848 4610.5 360"
-"disableshadows" "1"
-"disablereceiveshadows" "0"
-"classname" "func_illusionary"
-"hammerid" "563703"
-}
-{
-"model" "*21"
+"model" "*14"
 "targetname" "window_59_lighting_panel"
 "rendermode" "10"
 "renderfx" "0"
@@ -1359,6 +1212,7 @@
 "renderamt" "255"
 "RandomAnimation" "0"
 "pressuredelay" "0"
+"modelscale" "1.0"
 "model" "models/props_wasteland/plasterwall029c_window01a.mdl"
 "mindxlevel" "0"
 "MinAnimTime" "5"
@@ -1384,6 +1238,7 @@
 "renderamt" "255"
 "RandomAnimation" "0"
 "pressuredelay" "0"
+"modelscale" "1.0"
 "model" "models/props_wasteland/plasterwall029c_window01a_bars.mdl"
 "mindxlevel" "0"
 "MinAnimTime" "5"
@@ -1399,17 +1254,7 @@
 "hammerid" "563717"
 }
 {
-"portalnumber" "8"
-"TranslucencyLimit" "0"
-"target" "window_60_fading_part"
-"PortalVersion" "1"
-"FadeStartDist" "200"
-"FadeDist" "260"
-"classname" "func_areaportalwindow"
-"hammerid" "564002"
-}
-{
-"model" "*22"
+"model" "*15"
 "spawnobject" "0"
 "rendermode" "0"
 "renderfx" "0"
@@ -1434,20 +1279,7 @@
 "OnBreak" "window_32_bars,SetBodyGroup,1,0,-1"
 }
 {
-"model" "*23"
-"targetname" "window_60_fading_part"
-"rendermode" "0"
-"renderfx" "0"
-"rendercolor" "255 255 255"
-"renderamt" "255"
-"origin" "6464 4610.5 360"
-"disableshadows" "1"
-"disablereceiveshadows" "0"
-"classname" "func_illusionary"
-"hammerid" "564007"
-}
-{
-"model" "*24"
+"model" "*16"
 "targetname" "window_60_lighting_panel"
 "rendermode" "10"
 "renderfx" "0"
@@ -1469,6 +1301,7 @@
 "renderamt" "255"
 "RandomAnimation" "0"
 "pressuredelay" "0"
+"modelscale" "1.0"
 "model" "models/props_wasteland/plasterwall029c_window01a.mdl"
 "mindxlevel" "0"
 "MinAnimTime" "5"
@@ -1494,6 +1327,7 @@
 "renderamt" "255"
 "RandomAnimation" "0"
 "pressuredelay" "0"
+"modelscale" "1.0"
 "model" "models/props_wasteland/plasterwall029c_window01a_bars.mdl"
 "mindxlevel" "0"
 "MinAnimTime" "5"
@@ -1509,17 +1343,7 @@
 "hammerid" "564021"
 }
 {
-"portalnumber" "9"
-"TranslucencyLimit" "0"
-"target" "window_61_fading_part"
-"PortalVersion" "1"
-"FadeStartDist" "200"
-"FadeDist" "260"
-"classname" "func_areaportalwindow"
-"hammerid" "564196"
-}
-{
-"model" "*25"
+"model" "*17"
 "spawnobject" "0"
 "rendermode" "0"
 "renderfx" "0"
@@ -1544,20 +1368,7 @@
 "OnBreak" "window_33_bars,SetBodyGroup,1,0,-1"
 }
 {
-"model" "*26"
-"targetname" "window_61_fading_part"
-"rendermode" "0"
-"renderfx" "0"
-"rendercolor" "255 255 255"
-"renderamt" "255"
-"origin" "6976 4989.5 360"
-"disableshadows" "1"
-"disablereceiveshadows" "0"
-"classname" "func_illusionary"
-"hammerid" "564201"
-}
-{
-"model" "*27"
+"model" "*18"
 "targetname" "window_61_lighting_panel"
 "rendermode" "10"
 "renderfx" "0"
@@ -1579,6 +1390,7 @@
 "renderamt" "255"
 "RandomAnimation" "0"
 "pressuredelay" "0"
+"modelscale" "1.0"
 "model" "models/props_wasteland/plasterwall029c_window01a.mdl"
 "mindxlevel" "0"
 "MinAnimTime" "5"
@@ -1604,6 +1416,7 @@
 "renderamt" "255"
 "RandomAnimation" "0"
 "pressuredelay" "0"
+"modelscale" "1.0"
 "model" "models/props_wasteland/plasterwall029c_window01a_bars.mdl"
 "mindxlevel" "0"
 "MinAnimTime" "5"
@@ -1619,17 +1432,7 @@
 "hammerid" "564215"
 }
 {
-"portalnumber" "10"
-"TranslucencyLimit" "0"
-"target" "window_62_fading_part"
-"PortalVersion" "1"
-"FadeStartDist" "200"
-"FadeDist" "260"
-"classname" "func_areaportalwindow"
-"hammerid" "564218"
-}
-{
-"model" "*28"
+"model" "*19"
 "spawnobject" "0"
 "rendermode" "0"
 "renderfx" "0"
@@ -1655,20 +1458,7 @@
 "OnBreak" "window_34_bars,SetBodyGroup,1,0,-1"
 }
 {
-"model" "*29"
-"targetname" "window_62_fading_part"
-"rendermode" "0"
-"renderfx" "0"
-"rendercolor" "255 255 255"
-"renderamt" "255"
-"origin" "6720 4989.5 360"
-"disableshadows" "1"
-"disablereceiveshadows" "0"
-"classname" "func_illusionary"
-"hammerid" "564223"
-}
-{
-"model" "*30"
+"model" "*20"
 "targetname" "window_62_lighting_panel"
 "rendermode" "10"
 "renderfx" "0"
@@ -1690,6 +1480,7 @@
 "renderamt" "255"
 "RandomAnimation" "0"
 "pressuredelay" "0"
+"modelscale" "1.0"
 "model" "models/props_wasteland/plasterwall029c_window01a.mdl"
 "mindxlevel" "0"
 "MinAnimTime" "5"
@@ -1715,6 +1506,7 @@
 "renderamt" "255"
 "RandomAnimation" "0"
 "pressuredelay" "0"
+"modelscale" "1.0"
 "model" "models/props_wasteland/plasterwall029c_window01a_bars.mdl"
 "mindxlevel" "0"
 "MinAnimTime" "5"
@@ -1740,6 +1532,7 @@
 "renderamt" "255"
 "RandomAnimation" "0"
 "pressuredelay" "0"
+"modelscale" "1.0"
 "model" "models/props_wasteland/plasterwall029g_window01a_bars.mdl"
 "mindxlevel" "0"
 "MinAnimTime" "5"
@@ -1756,17 +1549,17 @@
 "hammerid" "573058"
 }
 {
-"portalnumber" "11"
+"portalnumber" "1"
 "TranslucencyLimit" "0"
 "target" "window_64_fading_part"
 "PortalVersion" "1"
-"FadeStartDist" "200"
-"FadeDist" "300"
+"FadeStartDist" "800"
+"FadeDist" "900"
 "classname" "func_areaportalwindow"
 "hammerid" "573068"
 }
 {
-"model" "*31"
+"model" "*21"
 "targetname" "window_1_breakable"
 "spawnobject" "0"
 "spawnflags" "0"
@@ -1793,7 +1586,7 @@
 "OnBreak" "window_36_bars,SetBodyGroup,1,0,-1"
 }
 {
-"model" "*32"
+"model" "*22"
 "targetname" "window_64_fading_part"
 "rendermode" "0"
 "renderfx" "0"
@@ -1806,7 +1599,7 @@
 "hammerid" "573073"
 }
 {
-"model" "*33"
+"model" "*23"
 "targetname" "window_64_lighting_panel"
 "rendermode" "10"
 "renderfx" "0"
@@ -1829,6 +1622,7 @@
 "renderamt" "255"
 "RandomAnimation" "0"
 "pressuredelay" "0"
+"modelscale" "1.0"
 "model" "models/props_wasteland/plasterwall029g_window01a_bars.mdl"
 "mindxlevel" "0"
 "MinAnimTime" "5"
@@ -1845,17 +1639,17 @@
 "hammerid" "573405"
 }
 {
-"portalnumber" "12"
+"portalnumber" "2"
 "TranslucencyLimit" "0"
 "target" "window_65_fading_part"
 "PortalVersion" "1"
-"FadeStartDist" "200"
-"FadeDist" "300"
+"FadeStartDist" "800"
+"FadeDist" "900"
 "classname" "func_areaportalwindow"
 "hammerid" "573415"
 }
 {
-"model" "*34"
+"model" "*24"
 "targetname" "window_2_breakable"
 "spawnobject" "0"
 "spawnflags" "0"
@@ -1882,7 +1676,7 @@
 "OnBreak" "window_37_bars,SetBodyGroup,1,0,-1"
 }
 {
-"model" "*35"
+"model" "*25"
 "targetname" "window_65_fading_part"
 "rendermode" "0"
 "renderfx" "0"
@@ -1895,7 +1689,7 @@
 "hammerid" "573420"
 }
 {
-"model" "*36"
+"model" "*26"
 "targetname" "window_65_lighting_panel"
 "rendermode" "10"
 "renderfx" "0"
@@ -1918,6 +1712,7 @@
 "renderamt" "255"
 "RandomAnimation" "0"
 "pressuredelay" "0"
+"modelscale" "1.0"
 "model" "models/props_wasteland/plasterwall029g_window01a_bars.mdl"
 "mindxlevel" "0"
 "MinAnimTime" "5"
@@ -1934,17 +1729,17 @@
 "hammerid" "573493"
 }
 {
-"portalnumber" "13"
+"portalnumber" "3"
 "TranslucencyLimit" "0"
 "target" "window_66_fading_part"
 "PortalVersion" "1"
-"FadeStartDist" "200"
-"FadeDist" "300"
+"FadeStartDist" "800"
+"FadeDist" "900"
 "classname" "func_areaportalwindow"
 "hammerid" "573503"
 }
 {
-"model" "*37"
+"model" "*27"
 "targetname" "window_3_breakable"
 "spawnobject" "0"
 "spawnflags" "0"
@@ -1971,7 +1766,7 @@
 "OnBreak" "window_38_bars,SetBodyGroup,1,0,-1"
 }
 {
-"model" "*38"
+"model" "*28"
 "targetname" "window_66_fading_part"
 "rendermode" "0"
 "renderfx" "0"
@@ -1984,7 +1779,7 @@
 "hammerid" "573508"
 }
 {
-"model" "*39"
+"model" "*29"
 "targetname" "window_66_lighting_panel"
 "rendermode" "10"
 "renderfx" "0"
@@ -2007,6 +1802,7 @@
 "renderamt" "255"
 "RandomAnimation" "0"
 "pressuredelay" "0"
+"modelscale" "1.0"
 "model" "models/props_wasteland/plasterwall029g_window01a_bars.mdl"
 "mindxlevel" "0"
 "MinAnimTime" "5"
@@ -2023,17 +1819,17 @@
 "hammerid" "573647"
 }
 {
-"portalnumber" "14"
+"portalnumber" "4"
 "TranslucencyLimit" "0"
 "target" "window_67_fading_part"
 "PortalVersion" "1"
-"FadeStartDist" "200"
-"FadeDist" "300"
+"FadeStartDist" "800"
+"FadeDist" "900"
 "classname" "func_areaportalwindow"
 "hammerid" "573657"
 }
 {
-"model" "*40"
+"model" "*30"
 "targetname" "window_4_breakable"
 "spawnobject" "0"
 "spawnflags" "0"
@@ -2061,7 +1857,7 @@
 "OnBreak" "window_39_bars,SetBodyGroup,1,0,-1"
 }
 {
-"model" "*41"
+"model" "*31"
 "targetname" "window_67_fading_part"
 "rendermode" "0"
 "renderfx" "0"
@@ -2074,7 +1870,7 @@
 "hammerid" "573662"
 }
 {
-"model" "*42"
+"model" "*32"
 "targetname" "window_67_lighting_panel"
 "rendermode" "10"
 "renderfx" "0"
@@ -2097,6 +1893,7 @@
 "renderamt" "255"
 "RandomAnimation" "0"
 "pressuredelay" "0"
+"modelscale" "1.0"
 "model" "models/props_wasteland/plasterwall029g_window01a_bars.mdl"
 "mindxlevel" "0"
 "MinAnimTime" "5"
@@ -2113,17 +1910,17 @@
 "hammerid" "573757"
 }
 {
-"portalnumber" "15"
+"portalnumber" "5"
 "TranslucencyLimit" "0"
 "target" "window_69_fading_part"
 "PortalVersion" "1"
-"FadeStartDist" "200"
-"FadeDist" "300"
+"FadeStartDist" "800"
+"FadeDist" "900"
 "classname" "func_areaportalwindow"
 "hammerid" "573767"
 }
 {
-"model" "*43"
+"model" "*33"
 "targetname" "window_6_breakable"
 "spawnobject" "0"
 "spawnflags" "0"
@@ -2150,7 +1947,7 @@
 "OnBreak" "window_41_bars,SetBodyGroup,1,0,-1"
 }
 {
-"model" "*44"
+"model" "*34"
 "targetname" "window_69_fading_part"
 "rendermode" "0"
 "renderfx" "0"
@@ -2163,7 +1960,7 @@
 "hammerid" "573772"
 }
 {
-"model" "*45"
+"model" "*35"
 "targetname" "window_69_lighting_panel"
 "rendermode" "10"
 "renderfx" "0"
@@ -2174,22 +1971,6 @@
 "disablereceiveshadows" "1"
 "classname" "func_illusionary"
 "hammerid" "573775"
-}
-{
-"portalnumber" "16"
-"targetname" "house1_roof_portal"
-"StartOpen" "0"
-"PortalVersion" "1"
-"classname" "func_areaportal"
-"hammerid" "659139"
-}
-{
-"portalnumber" "17"
-"targetname" "house1_roof_portal"
-"StartOpen" "0"
-"PortalVersion" "1"
-"classname" "func_areaportal"
-"hammerid" "659147"
 }
 {
 "vehiclescript" "scripts/vehicles/apc_npc.txt"
@@ -2246,6 +2027,7 @@
 "renderamt" "255"
 "pressuredelay" "0"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_wasteland/controlroom_desk001b.mdl"
 "minhealthdmg" "0"
 "massScale" "0"
@@ -2271,6 +2053,7 @@
 "renderamt" "255"
 "pressuredelay" "0"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_lab/reciever01d.mdl"
 "minhealthdmg" "0"
 "massScale" "0"
@@ -2296,6 +2079,7 @@
 "renderamt" "255"
 "pressuredelay" "0"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_lab/reciever01a.mdl"
 "minhealthdmg" "0"
 "massScale" "0"
@@ -2323,6 +2107,7 @@
 "physdamagescale" "0.1"
 "PerformanceMode" "0"
 "nodamageforces" "0"
+"modelscale" "1.0"
 "model" "models/props_lab/citizenradio.mdl"
 "minhealthdmg" "0"
 "massScale" "0"
@@ -2340,7 +2125,7 @@
 "hammerid" "813732"
 }
 {
-"model" "*46"
+"model" "*36"
 "wait" "10"
 "targetname" "trigger_pre2b"
 "StartDisabled" "1"
@@ -2356,7 +2141,7 @@
 "targetname" "lcs_actbusy_pre2b_2"
 "target1" "citizen_a_precmbt_2"
 "SceneFile" "scenes/coast/odessa/nlo_citizen_greet05.vcd"
-"busyactor" "1"
+"busyactor" "0"
 "classname" "logic_choreographed_scene"
 "hammerid" "821423"
 }
@@ -2365,7 +2150,7 @@
 "targetname" "lcs_actbusy_pre2b_3"
 "target1" "citizen_a_precmbt_2"
 "SceneFile" "scenes/coast/odessa/nlo_citizen_greet03.vcd"
-"busyactor" "1"
+"busyactor" "0"
 "classname" "logic_choreographed_scene"
 "hammerid" "821425"
 "OnStart" "mc_pre2b,Add,1,0,-1"
@@ -2375,7 +2160,7 @@
 "targetname" "lcs_actbusy_pre2b_4"
 "target1" "citizen_a_precmbt_2"
 "SceneFile" "scenes/coast/odessa/nlo_citizen_greet04.vcd"
-"busyactor" "1"
+"busyactor" "0"
 "classname" "logic_choreographed_scene"
 "hammerid" "821427"
 "OnStart" "mc_pre2b,Add,1,0,-1"
@@ -2410,7 +2195,7 @@
 "OnCase04" "lcs_actbusy_pre2b_4,Start,,0,1"
 }
 {
-"model" "*47"
+"model" "*37"
 "wait" "10"
 "targetname" "trigger_post2"
 "StartDisabled" "1"
@@ -2426,7 +2211,7 @@
 "targetname" "lcs_actbusy_post2_3"
 "target1" "citizen_a_ammo_*"
 "SceneFile" "scenes/coast/odessa/nlo_citizen_post03.vcd"
-"busyactor" "1"
+"busyactor" "0"
 "classname" "logic_choreographed_scene"
 "hammerid" "821750"
 }
@@ -2448,12 +2233,12 @@
 "targetname" "lcs_actbusy_post3_2"
 "target1" "citizen_a_medic_*"
 "SceneFile" "scenes/coast/odessa/nlo_citizen_post02.vcd"
-"busyactor" "1"
+"busyactor" "0"
 "classname" "logic_choreographed_scene"
 "hammerid" "822312"
 }
 {
-"model" "*48"
+"model" "*38"
 "wait" "10"
 "targetname" "trigger_post3"
 "StartDisabled" "1"
@@ -2478,7 +2263,7 @@
 "OnBeginSequence" "trigger_post3,Enable,,0,-1"
 }
 {
-"model" "*49"
+"model" "*39"
 "wait" "2"
 "unlocked_sound" "0"
 "unlocked_sentence" "0"
@@ -2515,6 +2300,7 @@
 "RandomAnimation" "0"
 "pressuredelay" "0"
 "PerformanceMode" "0"
+"modelscale" "1.0"
 "model" "models/props_lab/keypad.mdl"
 "mindxlevel" "0"
 "MinAnimTime" "5"
@@ -2625,35 +2411,8 @@
 "hammerid" "1091895"
 }
 {
-"origin" "-4760 -9051.3 1600"
-"spawnflags" "0"
-"pitch" "-45"
-"angles" "0 280 0"
-"_lightscaleHDR" ".7"
-"_lightHDR" "-1 -1 -1 1"
-"_light" "243 238 224 500"
-"_AmbientScaleHDR" "1"
-"_ambientHDR" "-1 -1 -1 1"
-"_ambient" "172 196 204 100"
-"classname" "light_environment"
-"hammerid" "151499"
-}
-{
-"origin" "-2560 1536 1472"
-"spawnflags" "0"
-"pitch" "-45"
-"angles" "0 280 0"
-"_lightscaleHDR" ".7"
-"_lightHDR" "-1 -1 -1 1"
-"_light" "243 238 224 500"
-"_AmbientScaleHDR" "1"
-"_ambientHDR" "-1 -1 -1 1"
-"_ambient" "172 196 204 100"
-"classname" "light_environment"
-"hammerid" "151525"
-}
-{
 "origin" "-512 6656 1472"
+"SunSpreadAngle" "1"
 "spawnflags" "0"
 "pitch" "-45"
 "angles" "0 280 0"
@@ -2665,20 +2424,6 @@
 "_ambient" "172 196 204 100"
 "classname" "light_environment"
 "hammerid" "151527"
-}
-{
-"origin" "6784 3584 1472"
-"spawnflags" "0"
-"pitch" "-45"
-"angles" "0 280 0"
-"_lightscaleHDR" ".7"
-"_lightHDR" "-1 -1 -1 1"
-"_light" "243 238 224 500"
-"_AmbientScaleHDR" "1"
-"_ambientHDR" "-1 -1 -1 1"
-"_ambient" "172 196 204 100"
-"classname" "light_environment"
-"hammerid" "151529"
 }
 {
 "origin" "-3584 -9984 133"
@@ -2939,56 +2684,56 @@
 "hammerid" "173162"
 }
 {
-"model" "*50"
+"model" "*40"
 "Solid" "0"
 "DisappearDist" "2000"
 "classname" "func_lod"
 "hammerid" "174259"
 }
 {
-"model" "*51"
+"model" "*41"
 "Solid" "0"
 "DisappearDist" "2000"
 "classname" "func_lod"
 "hammerid" "174263"
 }
 {
-"model" "*52"
+"model" "*42"
 "Solid" "0"
 "DisappearDist" "2000"
 "classname" "func_lod"
 "hammerid" "174267"
 }
 {
-"model" "*53"
+"model" "*43"
 "Solid" "0"
 "DisappearDist" "2000"
 "classname" "func_lod"
 "hammerid" "174271"
 }
 {
-"model" "*54"
+"model" "*44"
 "Solid" "0"
 "DisappearDist" "2000"
 "classname" "func_lod"
 "hammerid" "174274"
 }
 {
-"model" "*55"
+"model" "*45"
 "Solid" "0"
 "DisappearDist" "2000"
 "classname" "func_lod"
 "hammerid" "174984"
 }
 {
-"model" "*56"
+"model" "*46"
 "Solid" "0"
 "DisappearDist" "2000"
 "classname" "func_lod"
 "hammerid" "174988"
 }
 {
-"model" "*57"
+"model" "*47"
 "Solid" "0"
 "DisappearDist" "2000"
 "classname" "func_lod"
@@ -3267,7 +3012,7 @@
 "hammerid" "156410"
 }
 {
-"model" "*58"
+"model" "*48"
 "targetname" "boathouse1_door1"
 "spawnflags" "256"
 "rendermode" "0"
@@ -3288,7 +3033,7 @@
 "hammerid" "156452"
 }
 {
-"model" "*59"
+"model" "*49"
 "targetname" "boathouse1_door2"
 "spawnflags" "256"
 "rendermode" "0"
@@ -3315,6 +3060,7 @@
 "rendercolor" "255 255 255"
 "renderamt" "255"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_canal/boat001a.mdl"
 "inertiaScale" "1.0"
 "fadescale" "1"
@@ -3515,32 +3261,18 @@
 "hammerid" "195632"
 }
 {
-"model" "*60"
+"model" "*50"
 "Solid" "0"
 "DisappearDist" "2000"
 "classname" "func_lod"
 "hammerid" "195857"
 }
 {
-"model" "*61"
+"model" "*51"
 "Solid" "0"
 "DisappearDist" "2000"
 "classname" "func_lod"
 "hammerid" "195902"
-}
-{
-"origin" "-3840 -8448 960"
-"spawnflags" "0"
-"pitch" "-45"
-"angles" "0 280 0"
-"_lightscaleHDR" ".7"
-"_lightHDR" "-1 -1 -1 1"
-"_light" "243 238 224 500"
-"_AmbientScaleHDR" "1"
-"_ambientHDR" "-1 -1 -1 1"
-"_ambient" "172 196 204 100"
-"classname" "light_environment"
-"hammerid" "200857"
 }
 {
 "origin" "-4096 -7840 99"
@@ -3550,6 +3282,7 @@
 "renderamt" "255"
 "pressuredelay" "0"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_canal/boat001a.mdl"
 "minhealthdmg" "0"
 "massScale" "0"
@@ -3735,34 +3468,6 @@
 "hammerid" "204894"
 }
 {
-"origin" "-7552 7808 1472"
-"spawnflags" "0"
-"pitch" "-45"
-"angles" "0 280 0"
-"_lightscaleHDR" ".7"
-"_lightHDR" "-1 -1 -1 1"
-"_light" "243 238 224 500"
-"_AmbientScaleHDR" "1"
-"_ambientHDR" "-1 -1 -1 1"
-"_ambient" "172 196 204 100"
-"classname" "light_environment"
-"hammerid" "216724"
-}
-{
-"origin" "3456 -3072 1472"
-"spawnflags" "0"
-"pitch" "-45"
-"angles" "0 280 0"
-"_lightscaleHDR" ".7"
-"_lightHDR" "-1 -1 -1 1"
-"_light" "243 238 224 500"
-"_AmbientScaleHDR" "1"
-"_ambientHDR" "-1 -1 -1 1"
-"_ambient" "172 196 204 100"
-"classname" "light_environment"
-"hammerid" "223429"
-}
-{
 "origin" "-2336 -5824 69"
 "nodeid" "838"
 "classname" "info_node"
@@ -3829,7 +3534,7 @@
 "hammerid" "246131"
 }
 {
-"model" "*62"
+"model" "*52"
 "wait" "1"
 "StartDisabled" "0"
 "spawnflags" "1"
@@ -3846,6 +3551,7 @@
 "renderamt" "255"
 "pressuredelay" "0"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_junk/Shovel01a.mdl"
 "minhealthdmg" "0"
 "mindxlevel" "0"
@@ -3872,6 +3578,7 @@
 "renderamt" "255"
 "pressuredelay" "0"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_junk/Wheebarrow01a.mdl"
 "minhealthdmg" "0"
 "mindxlevel" "0"
@@ -3898,6 +3605,7 @@
 "renderamt" "255"
 "pressuredelay" "0"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_c17/oildrum001.mdl"
 "minhealthdmg" "0"
 "mindxlevel" "0"
@@ -3924,6 +3632,7 @@
 "renderamt" "255"
 "pressuredelay" "0"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_c17/oildrum001.mdl"
 "minhealthdmg" "0"
 "mindxlevel" "0"
@@ -3950,6 +3659,7 @@
 "renderamt" "255"
 "pressuredelay" "0"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_c17/oildrum001.mdl"
 "minhealthdmg" "0"
 "mindxlevel" "0"
@@ -3975,6 +3685,7 @@
 "spawnflags" "10240"
 "skin" "3"
 "returndelay" "4"
+"modelscale" "1.0"
 "model" "models/props_c17/door01_left.mdl"
 "hardware" "1"
 "distance" "90"
@@ -3986,21 +3697,6 @@
 "hammerid" "246186"
 }
 {
-"portalnumber" "18"
-"target" "house1_door1"
-"StartOpen" "0"
-"PortalVersion" "1"
-"classname" "func_areaportal"
-"hammerid" "246191"
-}
-{
-"portalnumber" "19"
-"StartOpen" "1"
-"PortalVersion" "1"
-"classname" "func_areaportal"
-"hammerid" "246193"
-}
-{
 "origin" "-3312 -6348 571"
 "spawnflags" "0"
 "skin" "0"
@@ -4008,6 +3704,7 @@
 "renderamt" "255"
 "pressuredelay" "0"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_vehicles/carparts_tire01a.mdl"
 "minhealthdmg" "0"
 "mindxlevel" "0"
@@ -4035,6 +3732,7 @@
 "renderamt" "255"
 "pressuredelay" "0"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_vehicles/carparts_tire01a.mdl"
 "minhealthdmg" "0"
 "mindxlevel" "0"
@@ -4055,44 +3753,7 @@
 "hammerid" "246202"
 }
 {
-"origin" "-3552 -6048 972"
-"spawnflags" "0"
-"pitch" "-45"
-"angles" "0 280 0"
-"_lightscaleHDR" ".7"
-"_lightHDR" "-1 -1 -1 1"
-"_light" "243 238 224 500"
-"_AmbientScaleHDR" "1"
-"_ambientHDR" "-1 -1 -1 1"
-"_ambient" "172 196 204 100"
-"classname" "light_environment"
-"hammerid" "246226"
-}
-{
-"portalnumber" "20"
-"TranslucencyLimit" "0"
-"target" "house1_portalbasement1"
-"PortalVersion" "1"
-"FadeStartDist" "512"
-"FadeDist" "1024"
-"classname" "func_areaportalwindow"
-"hammerid" "254975"
-}
-{
-"model" "*63"
-"targetname" "house1_portalbasement1"
-"rendermode" "0"
-"renderfx" "0"
-"rendercolor" "255 255 255"
-"renderamt" "255"
-"origin" "-3264 -6299 510"
-"disableshadows" "1"
-"disablereceiveshadows" "1"
-"classname" "func_illusionary"
-"hammerid" "255045"
-}
-{
-"model" "*64"
+"model" "*53"
 "spawnobject" "0"
 "spawnflags" "0"
 "rendermode" "0"
@@ -4123,6 +3784,7 @@
 "renderamt" "255"
 "pressuredelay" "0"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_c17/oildrum001.mdl"
 "minhealthdmg" "0"
 "mindxlevel" "0"
@@ -4150,6 +3812,7 @@
 "renderamt" "255"
 "pressuredelay" "0"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_vehicles/carparts_tire01a.mdl"
 "minhealthdmg" "0"
 "mindxlevel" "0"
@@ -4177,6 +3840,7 @@
 "renderamt" "255"
 "pressuredelay" "0"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_vehicles/carparts_wheel01a.mdl"
 "minhealthdmg" "0"
 "mindxlevel" "0"
@@ -4204,6 +3868,7 @@
 "renderamt" "255"
 "pressuredelay" "0"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_junk/wood_crate002a.mdl"
 "minhealthdmg" "0"
 "mindxlevel" "0"
@@ -4231,6 +3896,7 @@
 "renderamt" "255"
 "pressuredelay" "0"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_junk/wood_crate002a.mdl"
 "minhealthdmg" "0"
 "mindxlevel" "0"
@@ -4258,6 +3924,7 @@
 "renderamt" "255"
 "pressuredelay" "0"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_junk/MetalBucket02a.mdl"
 "minhealthdmg" "0"
 "mindxlevel" "0"
@@ -4285,6 +3952,7 @@
 "renderamt" "255"
 "pressuredelay" "0"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_junk/MetalBucket01a.mdl"
 "minhealthdmg" "0"
 "mindxlevel" "0"
@@ -4305,7 +3973,7 @@
 "hammerid" "258268"
 }
 {
-"model" "*65"
+"model" "*54"
 "spawnobject" "0"
 "spawnflags" "0"
 "rendermode" "0"
@@ -4341,7 +4009,7 @@
 "hammerid" "258273"
 }
 {
-"model" "*66"
+"model" "*55"
 "targetname" "garage_door2_2"
 "spawnobject" "0"
 "spawnflags" "0"
@@ -4378,7 +4046,7 @@
 "hammerid" "258279"
 }
 {
-"model" "*67"
+"model" "*56"
 "targetname" "garage_door2_1"
 "spawnobject" "0"
 "spawnflags" "0"
@@ -4405,43 +4073,7 @@
 "hammerid" "258282"
 }
 {
-"model" "*68"
-"targetname" "garage1_portalbrush1"
-"rendermode" "0"
-"renderfx" "0"
-"rendercolor" "255 255 255"
-"renderamt" "255"
-"origin" "-5046 4125.5 318"
-"disableshadows" "1"
-"disablereceiveshadows" "1"
-"classname" "func_illusionary"
-"hammerid" "260722"
-}
-{
-"portalnumber" "21"
-"TranslucencyLimit" "0"
-"target" "garage1_portalbrush1"
-"PortalVersion" "1"
-"FadeStartDist" "1200"
-"FadeDist" "2000"
-"classname" "func_areaportalwindow"
-"hammerid" "260725"
-}
-{
-"model" "*69"
-"targetname" "garage1_portalbrush2"
-"rendermode" "0"
-"renderfx" "0"
-"rendercolor" "255 255 255"
-"renderamt" "255"
-"origin" "-5046 4247.5 381"
-"disableshadows" "1"
-"disablereceiveshadows" "1"
-"classname" "func_illusionary"
-"hammerid" "260785"
-}
-{
-"model" "*70"
+"model" "*57"
 "StartDisabled" "0"
 "spawnflags" "15"
 "origin" "-760 -3632 -224"
@@ -4449,7 +4081,7 @@
 "hammerid" "278656"
 }
 {
-"model" "*71"
+"model" "*58"
 "StartDisabled" "0"
 "spawnflags" "15"
 "origin" "2568 -1456 -224"
@@ -4457,7 +4089,7 @@
 "hammerid" "278702"
 }
 {
-"model" "*72"
+"model" "*59"
 "classname" "func_vehicleclip"
 "hammerid" "278899"
 }
@@ -4522,35 +4154,35 @@
 "hammerid" "282375"
 }
 {
-"model" "*73"
+"model" "*60"
 "Solid" "0"
 "DisappearDist" "2000"
 "classname" "func_lod"
 "hammerid" "284668"
 }
 {
-"model" "*74"
+"model" "*61"
 "Solid" "0"
 "DisappearDist" "2000"
 "classname" "func_lod"
 "hammerid" "284690"
 }
 {
-"model" "*75"
+"model" "*62"
 "Solid" "0"
 "DisappearDist" "2000"
 "classname" "func_lod"
 "hammerid" "284708"
 }
 {
-"model" "*76"
+"model" "*63"
 "Solid" "0"
 "DisappearDist" "2000"
 "classname" "func_lod"
 "hammerid" "284901"
 }
 {
-"model" "*77"
+"model" "*64"
 "wait" "1"
 "StartDisabled" "0"
 "spawnflags" "1"
@@ -4794,19 +4426,6 @@
 "hammerid" "297858"
 }
 {
-"model" "*78"
-"targetname" "house5_doorportal"
-"rendermode" "0"
-"renderfx" "0"
-"rendercolor" "255 255 255"
-"renderamt" "255"
-"origin" "7035.5 4920 342"
-"disableshadows" "1"
-"disablereceiveshadows" "1"
-"classname" "func_illusionary"
-"hammerid" "297862"
-}
-{
 "origin" "7518.87 4176.7 335.341"
 "nodeid" "1393"
 "classname" "info_node"
@@ -4903,17 +4522,7 @@
 "hammerid" "297919"
 }
 {
-"portalnumber" "22"
-"TranslucencyLimit" "0"
-"target" "house5_doorportal"
-"PortalVersion" "1"
-"FadeStartDist" "450"
-"FadeDist" "512"
-"classname" "func_areaportalwindow"
-"hammerid" "297927"
-}
-{
-"portalnumber" "23"
+"portalnumber" "6"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
@@ -5009,30 +4618,7 @@
 "hammerid" "298023"
 }
 {
-"portalnumber" "24"
-"TranslucencyLimit" "0"
-"target" "house5_doorportal2"
-"PortalVersion" "1"
-"FadeStartDist" "450"
-"FadeDist" "512"
-"classname" "func_areaportalwindow"
-"hammerid" "298162"
-}
-{
-"model" "*79"
-"targetname" "house5_doorportal2"
-"rendermode" "0"
-"renderfx" "0"
-"rendercolor" "255 255 255"
-"renderamt" "255"
-"origin" "6952 4800.5 342"
-"disableshadows" "1"
-"disablereceiveshadows" "1"
-"classname" "func_illusionary"
-"hammerid" "298164"
-}
-{
-"model" "*80"
+"model" "*65"
 "spawnobject" "0"
 "spawnflags" "0"
 "rendermode" "0"
@@ -5056,7 +4642,7 @@
 "hammerid" "298197"
 }
 {
-"model" "*81"
+"model" "*66"
 "spawnobject" "0"
 "spawnflags" "0"
 "rendermode" "0"
@@ -5080,14 +4666,14 @@
 "hammerid" "298200"
 }
 {
-"portalnumber" "25"
+"portalnumber" "7"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
 "hammerid" "298304"
 }
 {
-"model" "*82"
+"model" "*67"
 "wait" "0.3"
 "StartDisabled" "0"
 "spawnflags" "1"
@@ -5234,7 +4820,7 @@
 "hammerid" "298472"
 }
 {
-"model" "*83"
+"model" "*68"
 "StartDisabled" "0"
 "spawnflags" "1"
 "origin" "-4540.2 2560 602.67"
@@ -5346,6 +4932,7 @@
 "renderamt" "255"
 "pressuredelay" "0"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_c17/oildrum001.mdl"
 "minhealthdmg" "0"
 "mindxlevel" "0"
@@ -5373,6 +4960,7 @@
 "renderamt" "255"
 "pressuredelay" "0"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_c17/oildrum001.mdl"
 "minhealthdmg" "0"
 "mindxlevel" "0"
@@ -5400,6 +4988,7 @@
 "renderamt" "255"
 "pressuredelay" "0"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_c17/oildrum001.mdl"
 "minhealthdmg" "0"
 "mindxlevel" "0"
@@ -5427,6 +5016,7 @@
 "renderamt" "255"
 "pressuredelay" "0"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_c17/oildrum001.mdl"
 "minhealthdmg" "0"
 "mindxlevel" "0"
@@ -5489,6 +5079,7 @@
 "renderamt" "255"
 "pressuredelay" "0"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_wasteland/cafeteria_table001a.mdl"
 "minhealthdmg" "0"
 "massScale" "0"
@@ -5512,6 +5103,7 @@
 "renderamt" "255"
 "pressuredelay" "0"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_wasteland/cafeteria_bench001a.mdl"
 "minhealthdmg" "0"
 "massScale" "0"
@@ -5531,6 +5123,7 @@
 {
 "origin" "-3354.73 -6249.19 636.849"
 "spawnflags" "4"
+"modelscale" "1.0"
 "model" "models/props_c17/FurnitureMattress001a.mdl"
 "fadescale" "1"
 "fademindist" "-1"
@@ -5546,6 +5139,7 @@
 "renderamt" "255"
 "pressuredelay" "0"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_wasteland/prison_bedframe001b.mdl"
 "minhealthdmg" "0"
 "massScale" "0"
@@ -5707,7 +5301,7 @@
 "OnSpawnNPC" "citizen_spawner_3,Disable,,0,-1"
 }
 {
-"model" "*84"
+"model" "*69"
 "StartDisabled" "0"
 "spawnflags" "1"
 "origin" "8192 2688 384"
@@ -5718,7 +5312,7 @@
 "OnTrigger" "thumper_5,Disable,,0,-1"
 }
 {
-"model" "*85"
+"model" "*70"
 "StartDisabled" "0"
 "spawnflags" "1"
 "origin" "7108 604 320"
@@ -5730,27 +5324,13 @@
 "OnTrigger" "thumper_3_dust,Kill,,0,-1"
 }
 {
-"origin" "-5088 -1440 972"
-"spawnflags" "0"
-"pitch" "-45"
-"angles" "0 280 0"
-"_lightscaleHDR" ".7"
-"_lightHDR" "-1 -1 -1 1"
-"_light" "243 238 224 500"
-"_AmbientScaleHDR" "1"
-"_ambientHDR" "-1 -1 -1 1"
-"_ambient" "172 196 204 100"
-"classname" "light_environment"
-"hammerid" "326047"
-}
-{
 "origin" "-4914.33 -1778.33 81.5307"
 "angles" "0 180 0"
 "classname" "info_player_start"
 "hammerid" "326083"
 }
 {
-"model" "*86"
+"model" "*71"
 "targetname" "cellar_door_1"
 "spawnobject" "0"
 "spawnflags" "163840"
@@ -5777,7 +5357,7 @@
 "hammerid" "330044"
 }
 {
-"model" "*87"
+"model" "*72"
 "targetname" "cellar_door_2"
 "spawnobject" "0"
 "spawnflags" "163840"
@@ -6211,6 +5791,7 @@
 "origin" "-192 8972 277.439"
 "spawnflags" "256"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "ItemCount" "2"
 "ItemClass" "weapon_frag"
 "inertiaScale" "1.0"
@@ -6238,7 +5819,7 @@
 "hammerid" "362442"
 }
 {
-"model" "*88"
+"model" "*73"
 "wait" "2"
 "targetname" "boathouse_boat_trigger"
 "StartDisabled" "0"
@@ -6302,7 +5883,7 @@
 "hammerid" "371563"
 }
 {
-"model" "*89"
+"model" "*74"
 "Solid" "0"
 "DisappearDist" "2000"
 "classname" "func_lod"
@@ -6316,6 +5897,7 @@
 "renderamt" "255"
 "pressuredelay" "0"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_debris/metal_panel02a.mdl"
 "minhealthdmg" "0"
 "mindxlevel" "0"
@@ -6343,6 +5925,7 @@
 "renderamt" "255"
 "pressuredelay" "0"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_debris/metal_panel01a.mdl"
 "minhealthdmg" "0"
 "mindxlevel" "0"
@@ -6370,6 +5953,7 @@
 "renderamt" "255"
 "pressuredelay" "0"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_debris/metal_panel01a.mdl"
 "minhealthdmg" "0"
 "mindxlevel" "0"
@@ -6629,6 +6213,7 @@
 "renderamt" "255"
 "pressuredelay" "0"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_wasteland/cafeteria_bench001a.mdl"
 "minhealthdmg" "0"
 "massScale" "0"
@@ -6652,6 +6237,7 @@
 "renderamt" "255"
 "pressuredelay" "0"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_wasteland/cafeteria_table001a.mdl"
 "minhealthdmg" "0"
 "massScale" "0"
@@ -6675,6 +6261,7 @@
 "renderamt" "255"
 "pressuredelay" "0"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_wasteland/cafeteria_bench001a.mdl"
 "minhealthdmg" "0"
 "massScale" "0"
@@ -6698,6 +6285,7 @@
 "renderamt" "255"
 "pressuredelay" "0"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_wasteland/cafeteria_table001a.mdl"
 "minhealthdmg" "0"
 "massScale" "0"
@@ -6721,6 +6309,7 @@
 "renderamt" "255"
 "pressuredelay" "0"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_wasteland/cafeteria_bench001a.mdl"
 "minhealthdmg" "0"
 "massScale" "0"
@@ -6744,6 +6333,7 @@
 "renderamt" "255"
 "pressuredelay" "0"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_wasteland/cafeteria_bench001a.mdl"
 "minhealthdmg" "0"
 "massScale" "0"
@@ -6761,7 +6351,7 @@
 "hammerid" "393701"
 }
 {
-"model" "*90"
+"model" "*75"
 "targetname" "house6_doorportal1"
 "rendermode" "0"
 "renderfx" "0"
@@ -6774,7 +6364,7 @@
 "hammerid" "393774"
 }
 {
-"portalnumber" "26"
+"portalnumber" "8"
 "TranslucencyLimit" "0"
 "target" "house6_doorportal1"
 "PortalVersion" "1"
@@ -6784,7 +6374,7 @@
 "hammerid" "393777"
 }
 {
-"portalnumber" "27"
+"portalnumber" "9"
 "TranslucencyLimit" "0"
 "target" "house6_doorportal2"
 "PortalVersion" "1"
@@ -6794,7 +6384,7 @@
 "hammerid" "393866"
 }
 {
-"model" "*91"
+"model" "*76"
 "targetname" "house6_doorportal2"
 "rendermode" "0"
 "renderfx" "0"
@@ -6834,7 +6424,7 @@
 "OnDeath" "reload,Reload,,0,-1"
 }
 {
-"model" "*92"
+"model" "*77"
 "targetname" "trigger_classover"
 "StartDisabled" "1"
 "spawnflags" "1"
@@ -6852,7 +6442,7 @@
 "target2" "citizen_a_medic_original"
 "target1" "rocketman"
 "SceneFile" "scenes/coast/odessa/cub_goonwithoutme.vcd"
-"busyactor" "1"
+"busyactor" "0"
 "classname" "logic_choreographed_scene"
 "hammerid" "395353"
 "OnTrigger1" "citizen*,StopScripting,,0.1,-1"
@@ -6895,7 +6485,7 @@
 "hammerid" "396210"
 }
 {
-"model" "*93"
+"model" "*78"
 "targetname" "player_leaves_house"
 "StartDisabled" "1"
 "spawnflags" "1"
@@ -6924,6 +6514,7 @@
 "rendercolor" "255 255 255"
 "renderamt" "255"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_c17/oildrum001.mdl"
 "minhealthdmg" "0"
 "massScale" "0"
@@ -6952,6 +6543,7 @@
 "rendercolor" "255 255 255"
 "renderamt" "255"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_wasteland/controlroom_chair001a.mdl"
 "inertiaScale" "1.0"
 "fadescale" "1"
@@ -6985,7 +6577,7 @@
 "hammerid" "420397"
 }
 {
-"model" "*94"
+"model" "*79"
 "spawnflags" "0"
 "map" "d2_coast_04"
 "landmark" "landmark_d2_coast_03-04"
@@ -7004,20 +6596,6 @@
 "angles" "0 90 0"
 "classname" "info_player_start"
 "hammerid" "441664"
-}
-{
-"origin" "7376 14272 492"
-"spawnflags" "0"
-"pitch" "-45"
-"angles" "0 280 0"
-"_lightscaleHDR" ".7"
-"_lightHDR" "-1 -1 -1 1"
-"_light" "243 238 224 500"
-"_AmbientScaleHDR" "1"
-"_ambientHDR" "-1 -1 -1 1"
-"_ambient" "172 196 204 100"
-"classname" "light_environment"
-"hammerid" "442042"
 }
 {
 "origin" "-6192 272 101"
@@ -7056,6 +6634,7 @@
 "renderamt" "255"
 "pressuredelay" "0"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_wasteland/cafeteria_table001a.mdl"
 "minhealthdmg" "0"
 "massScale" "0"
@@ -7079,6 +6658,7 @@
 "rendercolor" "255 255 255"
 "renderamt" "255"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_c17/oildrum001.mdl"
 "minhealthdmg" "0"
 "massScale" "0"
@@ -7137,6 +6717,7 @@
 "rendercolor" "255 255 255"
 "renderamt" "255"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_wasteland/wood_fence01b.mdl"
 "inertiaScale" "1.0"
 "fadescale" "1"
@@ -7153,6 +6734,7 @@
 "rendercolor" "255 255 255"
 "renderamt" "255"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_wasteland/wood_fence01c.mdl"
 "inertiaScale" "1.0"
 "fadescale" "1"
@@ -7169,6 +6751,7 @@
 "rendercolor" "255 255 255"
 "renderamt" "255"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_wasteland/wood_fence02a.mdl"
 "inertiaScale" "1.0"
 "fadescale" "1"
@@ -7184,6 +6767,7 @@
 "rendercolor" "255 255 255"
 "renderamt" "255"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_wasteland/wood_fence01a.mdl"
 "inertiaScale" "1.0"
 "fadescale" "1"
@@ -7199,6 +6783,7 @@
 "rendercolor" "255 255 255"
 "renderamt" "255"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_wasteland/wood_fence01a.mdl"
 "inertiaScale" "1.0"
 "fadescale" "1"
@@ -7214,6 +6799,7 @@
 "rendercolor" "255 255 255"
 "renderamt" "255"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_wasteland/wood_fence02a.mdl"
 "inertiaScale" "1.0"
 "fadescale" "1"
@@ -7229,6 +6815,7 @@
 "rendercolor" "255 255 255"
 "renderamt" "255"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_wasteland/wood_fence01c.mdl"
 "inertiaScale" "1.0"
 "fadescale" "1"
@@ -7245,6 +6832,7 @@
 "rendercolor" "255 255 255"
 "renderamt" "255"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_wasteland/wood_fence01b.mdl"
 "inertiaScale" "1.0"
 "fadescale" "1"
@@ -7261,6 +6849,7 @@
 "rendercolor" "255 255 255"
 "renderamt" "255"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_wasteland/wood_fence02a.mdl"
 "inertiaScale" "1.0"
 "fadescale" "1"
@@ -7276,6 +6865,7 @@
 "rendercolor" "255 255 255"
 "renderamt" "255"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_wasteland/wood_fence01b.mdl"
 "inertiaScale" "1.0"
 "fadescale" "1"
@@ -7291,6 +6881,7 @@
 "rendercolor" "255 255 255"
 "renderamt" "255"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_wasteland/wood_fence01a.mdl"
 "inertiaScale" "1.0"
 "fadescale" "1"
@@ -7306,6 +6897,7 @@
 "rendercolor" "255 255 255"
 "renderamt" "255"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_wasteland/wood_fence01c.mdl"
 "inertiaScale" "1.0"
 "fadescale" "1"
@@ -7321,6 +6913,7 @@
 "rendercolor" "255 255 255"
 "renderamt" "255"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_wasteland/wood_fence02a.mdl"
 "inertiaScale" "1.0"
 "fadescale" "1"
@@ -7336,6 +6929,7 @@
 "rendercolor" "255 255 255"
 "renderamt" "255"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_wasteland/wood_fence01a.mdl"
 "inertiaScale" "1.0"
 "fadescale" "1"
@@ -7351,6 +6945,7 @@
 "rendercolor" "255 255 255"
 "renderamt" "255"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_wasteland/wood_fence01a.mdl"
 "inertiaScale" "1.0"
 "fadescale" "1"
@@ -7366,6 +6961,7 @@
 "rendercolor" "255 255 255"
 "renderamt" "255"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_wasteland/wood_fence01b.mdl"
 "inertiaScale" "1.0"
 "fadescale" "1"
@@ -7381,6 +6977,7 @@
 "rendercolor" "255 255 255"
 "renderamt" "255"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_wasteland/wood_fence01b.mdl"
 "inertiaScale" "1.0"
 "fadescale" "1"
@@ -7396,6 +6993,7 @@
 "rendercolor" "255 255 255"
 "renderamt" "255"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_wasteland/wood_fence02a.mdl"
 "inertiaScale" "1.0"
 "fadescale" "1"
@@ -7411,6 +7009,7 @@
 "rendercolor" "255 255 255"
 "renderamt" "255"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_wasteland/wood_fence01a.mdl"
 "inertiaScale" "1.0"
 "fadescale" "1"
@@ -7426,6 +7025,7 @@
 "rendercolor" "255 255 255"
 "renderamt" "255"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_wasteland/wood_fence02a.mdl"
 "inertiaScale" "1.0"
 "fadescale" "1"
@@ -7441,6 +7041,7 @@
 "rendercolor" "255 255 255"
 "renderamt" "255"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_wasteland/wood_fence01a.mdl"
 "inertiaScale" "1.0"
 "fadescale" "1"
@@ -7456,6 +7057,7 @@
 "rendercolor" "255 255 255"
 "renderamt" "255"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_wasteland/wood_fence02a.mdl"
 "inertiaScale" "1.0"
 "fadescale" "1"
@@ -7471,6 +7073,7 @@
 "rendercolor" "255 255 255"
 "renderamt" "255"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_wasteland/wood_fence01a.mdl"
 "inertiaScale" "1.0"
 "fadescale" "1"
@@ -7486,6 +7089,7 @@
 "rendercolor" "255 255 255"
 "renderamt" "255"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_wasteland/wood_fence01b.mdl"
 "inertiaScale" "1.0"
 "fadescale" "1"
@@ -7501,6 +7105,7 @@
 "rendercolor" "255 255 255"
 "renderamt" "255"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_wasteland/wood_fence01c.mdl"
 "inertiaScale" "1.0"
 "fadescale" "1"
@@ -7516,6 +7121,7 @@
 "rendercolor" "255 255 255"
 "renderamt" "255"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_wasteland/wood_fence01b.mdl"
 "inertiaScale" "1.0"
 "fadescale" "1"
@@ -7531,6 +7137,7 @@
 "renderamt" "255"
 "pressuredelay" "0"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_wasteland/cafeteria_table001a.mdl"
 "minhealthdmg" "0"
 "massScale" "0"
@@ -7554,6 +7161,7 @@
 "renderamt" "255"
 "pressuredelay" "0"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_wasteland/cafeteria_bench001a.mdl"
 "minhealthdmg" "0"
 "massScale" "0"
@@ -7577,6 +7185,7 @@
 "renderamt" "255"
 "pressuredelay" "0"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_wasteland/cafeteria_bench001a.mdl"
 "minhealthdmg" "0"
 "massScale" "0"
@@ -7596,6 +7205,7 @@
 {
 "origin" "6838.62 4945.32 325.849"
 "spawnflags" "4"
+"modelscale" "1.0"
 "model" "models/props_c17/FurnitureMattress001a.mdl"
 "fadescale" "1"
 "fademindist" "-1"
@@ -7611,6 +7221,7 @@
 "renderamt" "255"
 "pressuredelay" "0"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_wasteland/prison_bedframe001b.mdl"
 "minhealthdmg" "0"
 "massScale" "0"
@@ -7630,6 +7241,7 @@
 {
 "origin" "6718.62 4945.66 325.849"
 "spawnflags" "4"
+"modelscale" "1.0"
 "model" "models/props_c17/FurnitureMattress001a.mdl"
 "fadescale" "1"
 "fademindist" "-1"
@@ -7645,6 +7257,7 @@
 "renderamt" "255"
 "pressuredelay" "0"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_wasteland/prison_bedframe001b.mdl"
 "minhealthdmg" "0"
 "massScale" "0"
@@ -7664,6 +7277,7 @@
 {
 "origin" "6582.7 4937.94 325.849"
 "spawnflags" "4"
+"modelscale" "1.0"
 "model" "models/props_c17/FurnitureMattress001a.mdl"
 "fadescale" "1"
 "fademindist" "-1"
@@ -7679,6 +7293,7 @@
 "renderamt" "255"
 "pressuredelay" "0"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_wasteland/prison_bedframe001b.mdl"
 "minhealthdmg" "0"
 "massScale" "0"
@@ -7698,6 +7313,7 @@
 {
 "origin" "6613.6 4642.86 325.849"
 "spawnflags" "4"
+"modelscale" "1.0"
 "model" "models/props_c17/FurnitureMattress001a.mdl"
 "fadescale" "1"
 "fademindist" "-1"
@@ -7713,6 +7329,7 @@
 "renderamt" "255"
 "pressuredelay" "0"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_wasteland/prison_bedframe001b.mdl"
 "minhealthdmg" "0"
 "massScale" "0"
@@ -7732,6 +7349,7 @@
 {
 "origin" "6433.66 4722.4 325.849"
 "spawnflags" "4"
+"modelscale" "1.0"
 "model" "models/props_c17/FurnitureMattress001a.mdl"
 "fadescale" "1"
 "fademindist" "-1"
@@ -7747,6 +7365,7 @@
 "renderamt" "255"
 "pressuredelay" "0"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_wasteland/prison_bedframe001b.mdl"
 "minhealthdmg" "0"
 "massScale" "0"
@@ -7770,6 +7389,7 @@
 "renderamt" "255"
 "pressuredelay" "0"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_c17/FurnitureDresser001a.mdl"
 "minhealthdmg" "0"
 "massScale" "0"
@@ -7859,7 +7479,7 @@
 "hammerid" "467440"
 }
 {
-"model" "*95"
+"model" "*80"
 "StartDisabled" "0"
 "spawnflags" "1"
 "origin" "-3760 3692 369.08"
@@ -7987,6 +7607,7 @@
 "origin" "-3792 3844 497.439"
 "spawnflags" "256"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "ItemCount" "2"
 "ItemClass" "item_dynamic_resupply"
 "inertiaScale" "1.0"
@@ -8001,6 +7622,7 @@
 "origin" "-3552.01 -5959.99 601.439"
 "spawnflags" "256"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "ItemCount" "2"
 "ItemClass" "item_dynamic_resupply"
 "inertiaScale" "1.0"
@@ -8028,6 +7650,7 @@
 "renderamt" "255"
 "pressuredelay" "0"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_junk/wood_crate001a_damagedmax.mdl"
 "minhealthdmg" "0"
 "mindxlevel" "0"
@@ -8054,6 +7677,7 @@
 "renderamt" "255"
 "pressuredelay" "0"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_wasteland/prison_shelf002a.mdl"
 "minhealthdmg" "0"
 "massScale" "0"
@@ -8079,6 +7703,7 @@
 "renderamt" "255"
 "pressuredelay" "0"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_junk/wood_crate001a_damagedmax.mdl"
 "minhealthdmg" "0"
 "mindxlevel" "0"
@@ -8106,6 +7731,7 @@
 "renderamt" "255"
 "pressuredelay" "0"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_junk/wood_crate001a_damagedmax.mdl"
 "minhealthdmg" "0"
 "mindxlevel" "0"
@@ -8132,6 +7758,7 @@
 "rendercolor" "255 255 255"
 "renderamt" "255"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_c17/FurnitureCouch001a.mdl"
 "minhealthdmg" "0"
 "massScale" "0"
@@ -8152,6 +7779,7 @@
 "origin" "-4280 3680 480.439"
 "spawnflags" "256"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "ItemCount" "2"
 "ItemClass" "item_dynamic_resupply"
 "inertiaScale" "1.0"
@@ -8163,7 +7791,7 @@
 "hammerid" "509958"
 }
 {
-"model" "*96"
+"model" "*81"
 "spawnobject" "0"
 "spawnflags" "0"
 "rendermode" "0"
@@ -8188,7 +7816,7 @@
 "hammerid" "510107"
 }
 {
-"model" "*97"
+"model" "*82"
 "spawnobject" "0"
 "spawnflags" "0"
 "rendermode" "0"
@@ -8220,6 +7848,7 @@
 "renderamt" "255"
 "pressuredelay" "0"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_junk/PlasticCrate01a.mdl"
 "minhealthdmg" "0"
 "mindxlevel" "0"
@@ -8247,6 +7876,7 @@
 "renderamt" "255"
 "pressuredelay" "0"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_junk/MetalBucket01a.mdl"
 "minhealthdmg" "0"
 "mindxlevel" "0"
@@ -8265,16 +7895,6 @@
 "angles" "0 195 0"
 "classname" "prop_physics"
 "hammerid" "510531"
-}
-{
-"portalnumber" "28"
-"TranslucencyLimit" "0"
-"target" "garage1_portalbrush2"
-"PortalVersion" "1"
-"FadeStartDist" "1200"
-"FadeDist" "2000"
-"classname" "func_areaportalwindow"
-"hammerid" "512752"
 }
 {
 "origin" "8096 3456 321"
@@ -8414,6 +8034,7 @@
 "pressuredelay" "0"
 "physdamagescale" "0.1"
 "overridescript" "damping,0.2,rotdamping,1.25"
+"modelscale" "1.0"
 "model" "models/props_vehicles/carparts_tire01a.mdl"
 "minhealthdmg" "0"
 "mindxlevel" "0"
@@ -8476,7 +8097,7 @@
 "hammerid" "533553"
 }
 {
-"model" "*98"
+"model" "*83"
 "StartDisabled" "0"
 "spawnflags" "1"
 "origin" "8852 4376 276.08"
@@ -8495,6 +8116,7 @@
 "renderamt" "255"
 "pressuredelay" "0"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_junk/wood_crate001a_damagedmax.mdl"
 "minhealthdmg" "0"
 "mindxlevel" "0"
@@ -8522,6 +8144,7 @@
 "renderamt" "255"
 "pressuredelay" "0"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_junk/wood_crate001a_damagedmax.mdl"
 "minhealthdmg" "0"
 "mindxlevel" "0"
@@ -8573,6 +8196,7 @@
 "renderamt" "255"
 "pressuredelay" "0"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_junk/wood_crate001a_damagedmax.mdl"
 "minhealthdmg" "0"
 "mindxlevel" "0"
@@ -8600,6 +8224,7 @@
 "renderamt" "255"
 "pressuredelay" "0"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_junk/wood_crate001a_damagedmax.mdl"
 "minhealthdmg" "0"
 "mindxlevel" "0"
@@ -8627,6 +8252,7 @@
 "renderamt" "255"
 "pressuredelay" "0"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_junk/wood_crate001a_damagedmax.mdl"
 "minhealthdmg" "0"
 "mindxlevel" "0"
@@ -8653,7 +8279,7 @@
 "hammerid" "550203"
 }
 {
-"model" "*99"
+"model" "*84"
 "wait" "1"
 "spawnflags" "2"
 "origin" "-3200 -11584 1664"
@@ -8676,7 +8302,7 @@
 "hammerid" "552688"
 }
 {
-"model" "*100"
+"model" "*85"
 "wait" "1"
 "spawnflags" "2"
 "origin" "1152 -8896 960"
@@ -8698,7 +8324,7 @@
 "hammerid" "552883"
 }
 {
-"model" "*101"
+"model" "*86"
 "wait" "1"
 "spawnflags" "2"
 "origin" "-384 3008 448"
@@ -8721,7 +8347,7 @@
 "hammerid" "553003"
 }
 {
-"model" "*102"
+"model" "*87"
 "wait" "1"
 "spawnflags" "2"
 "origin" "-384 3520 448"
@@ -8795,7 +8421,7 @@
 "hammerid" "553229"
 }
 {
-"model" "*103"
+"model" "*88"
 "wait" "1"
 "spawnflags" "2"
 "origin" "-2016 -11488 1184"
@@ -8886,7 +8512,7 @@
 "hammerid" "554063"
 }
 {
-"model" "*104"
+"model" "*89"
 "wait" "1"
 "spawnflags" "2"
 "origin" "-7608 3768 560"
@@ -8895,7 +8521,7 @@
 "OnStartTouch" "!activator,Kill,,0,-1"
 }
 {
-"model" "*105"
+"model" "*90"
 "wait" "1"
 "spawnflags" "2"
 "origin" "1928 10360 1520"
@@ -8911,6 +8537,7 @@
 "renderamt" "255"
 "pressuredelay" "0"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_c17/oildrum001.mdl"
 "minhealthdmg" "0"
 "mindxlevel" "0"
@@ -8936,7 +8563,7 @@
 "hammerid" "568215"
 }
 {
-"model" "*106"
+"model" "*91"
 "spawnflags" "0"
 "map" "d2_coast_01"
 "landmark" "landmark_d2_coast_01-03"
@@ -8950,20 +8577,6 @@
 "hammerid" "580031"
 }
 {
-"origin" "-6912 -16192 1260"
-"spawnflags" "0"
-"pitch" "-45"
-"angles" "0 280 0"
-"_lightscaleHDR" ".7"
-"_lightHDR" "-1 -1 -1 1"
-"_light" "243 238 224 500"
-"_AmbientScaleHDR" "1"
-"_ambientHDR" "-1 -1 -1 1"
-"_ambient" "172 196 204 100"
-"classname" "light_environment"
-"hammerid" "580418"
-}
-{
 "origin" "6928 3680 397.315"
 "targetname" "citizens_vs_gunship"
 "target" "npc_combinegunship"
@@ -8975,13 +8588,13 @@
 "hammerid" "607885"
 }
 {
-"model" "*107"
+"model" "*92"
 "targetname" "landmark_d2_coast_01-03"
 "classname" "trigger_transition"
 "hammerid" "609733"
 }
 {
-"model" "*108"
+"model" "*93"
 "targetname" "landmark_d2_coast_03-04"
 "classname" "trigger_transition"
 "hammerid" "609751"
@@ -9037,6 +8650,7 @@
 "renderamt" "255"
 "pressuredelay" "0"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_citizen_tech/windmill_blade002a.mdl"
 "minhealthdmg" "0"
 "massScale" "0"
@@ -9058,7 +8672,7 @@
 "targetname" "gunship_warning_shout"
 "target1" "citizen_b_regular_original"
 "SceneFile" "scenes/npc/male01/gunship02.vcd"
-"busyactor" "1"
+"busyactor" "0"
 "classname" "logic_choreographed_scene"
 "hammerid" "622331"
 }
@@ -9081,6 +8695,7 @@
 "pressuredelay" "0"
 "physdamagescale" "0.1"
 "nodamageforces" "0"
+"modelscale" "1.0"
 "model" "models/props_vehicles/carparts_tire01a.mdl"
 "minhealthdmg" "0"
 "massScale" "0"
@@ -9106,6 +8721,7 @@
 "pressuredelay" "0"
 "physdamagescale" "0.1"
 "nodamageforces" "0"
+"modelscale" "1.0"
 "model" "models/props_vehicles/carparts_tire01a.mdl"
 "minhealthdmg" "0"
 "massScale" "0"
@@ -9130,6 +8746,7 @@
 "rendercolor" "255 255 255"
 "renderamt" "255"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_c17/oildrum001_explosive.mdl"
 "minhealthdmg" "0"
 "massScale" "0"
@@ -9156,6 +8773,7 @@
 "rendercolor" "255 255 255"
 "renderamt" "255"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_c17/oildrum001_explosive.mdl"
 "minhealthdmg" "0"
 "massScale" "0"
@@ -9182,6 +8800,7 @@
 "rendercolor" "255 255 255"
 "renderamt" "255"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_c17/oildrum001_explosive.mdl"
 "minhealthdmg" "0"
 "massScale" "0"
@@ -9208,6 +8827,7 @@
 "rendercolor" "255 255 255"
 "renderamt" "255"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_c17/oildrum001_explosive.mdl"
 "minhealthdmg" "0"
 "massScale" "0"
@@ -9234,6 +8854,7 @@
 "rendercolor" "255 255 255"
 "renderamt" "255"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_c17/oildrum001_explosive.mdl"
 "minhealthdmg" "0"
 "massScale" "0"
@@ -9259,6 +8880,7 @@
 "rendercolor" "255 255 255"
 "renderamt" "255"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_junk/wood_crate002a.mdl"
 "minhealthdmg" "0"
 "massScale" "0"
@@ -9297,7 +8919,7 @@
 "OnEndFollow" "relay_gman_sighting,CancelPending,,0,-1"
 }
 {
-"model" "*109"
+"model" "*94"
 "wait" "-1"
 "unlocked_sentence" "0"
 "targetname" "telescope_button"
@@ -9350,7 +8972,7 @@
 "hammerid" "638856"
 }
 {
-"model" "*110"
+"model" "*95"
 "wheels" "50"
 "volume" "0"
 "targetname" "telescope_viewtrack"
@@ -10079,7 +9701,7 @@
 "hammerid" "657909"
 }
 {
-"model" "*111"
+"model" "*96"
 "wait" "1"
 "StartDisabled" "0"
 "spawnflags" "1"
@@ -10110,6 +9732,7 @@
 "targetname" "flung_corpse"
 "spawnflags" "4"
 "skin" "0"
+"modelscale" "1.0"
 "model" "models/Humans/corpse1.mdl"
 "fadescale" "1"
 "fademindist" "-1"
@@ -10168,6 +9791,7 @@
 "spawnflags" "8192"
 "skin" "1"
 "returndelay" "-1"
+"modelscale" "1.0"
 "model" "models/props_c17/door01_left.mdl"
 "hardware" "1"
 "distance" "90"
@@ -10286,6 +9910,7 @@
 "renderamt" "255"
 "pressuredelay" "0"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_junk/wood_crate001a_damagedmax.mdl"
 "minhealthdmg" "0"
 "mindxlevel" "0"
@@ -10306,7 +9931,7 @@
 "hammerid" "666320"
 }
 {
-"model" "*112"
+"model" "*97"
 "StartDisabled" "0"
 "spawnflags" "1"
 "origin" "-3344 -6016 652"
@@ -10327,7 +9952,7 @@
 "hammerid" "666396"
 }
 {
-"model" "*113"
+"model" "*98"
 "targetname" "bodytoss_trigger"
 "StartDisabled" "0"
 "spawnflags" "1"
@@ -10670,7 +10295,7 @@
 "OnEntitySpawned" "thumper_battle_template,Kill,,0.1,-1"
 }
 {
-"model" "*114"
+"model" "*99"
 "StartDisabled" "0"
 "spawnflags" "1"
 "origin" "-6656 8704 64"
@@ -10761,6 +10386,7 @@
 "origin" "-192 8978 305.439"
 "spawnflags" "256"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "ItemCount" "2"
 "ItemClass" "weapon_frag"
 "inertiaScale" "1.0"
@@ -10912,6 +10538,7 @@
 "rendercolor" "255 255 255"
 "renderamt" "255"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_c17/oildrum001_explosive.mdl"
 "minhealthdmg" "0"
 "massScale" "0"
@@ -11012,6 +10639,7 @@
 "rendercolor" "255 255 255"
 "renderamt" "255"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_c17/oildrum001_explosive.mdl"
 "minhealthdmg" "0"
 "massScale" "0"
@@ -11038,6 +10666,7 @@
 "rendercolor" "255 255 255"
 "renderamt" "255"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_c17/oildrum001_explosive.mdl"
 "minhealthdmg" "0"
 "massScale" "0"
@@ -11085,6 +10714,7 @@
 "rendercolor" "255 255 255"
 "renderamt" "255"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_c17/oildrum001_explosive.mdl"
 "minhealthdmg" "0"
 "massScale" "0"
@@ -11125,6 +10755,7 @@
 "rendercolor" "255 255 255"
 "renderamt" "255"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_c17/oildrum001_explosive.mdl"
 "minhealthdmg" "0"
 "massScale" "0"
@@ -11166,6 +10797,7 @@
 "pressuredelay" "0"
 "physdamagescale" "0.1"
 "nodamageforces" "0"
+"modelscale" "1.0"
 "model" "models/props_vehicles/carparts_tire01a.mdl"
 "minhealthdmg" "0"
 "massScale" "0"
@@ -11333,6 +10965,7 @@
 "rendercolor" "255 255 255"
 "renderamt" "255"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_c17/oildrum001_explosive.mdl"
 "minhealthdmg" "0"
 "massScale" "0"
@@ -11372,6 +11005,7 @@
 "rendercolor" "255 255 255"
 "renderamt" "255"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_junk/wood_crate001a.mdl"
 "minhealthdmg" "0"
 "massScale" "0"
@@ -11420,6 +11054,7 @@
 "rendercolor" "255 255 255"
 "renderamt" "255"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_junk/wood_crate001a.mdl"
 "minhealthdmg" "0"
 "massScale" "0"
@@ -11460,6 +11095,7 @@
 "rendercolor" "255 255 255"
 "renderamt" "255"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_junk/wood_crate001a.mdl"
 "minhealthdmg" "0"
 "massScale" "0"
@@ -11500,6 +11136,7 @@
 "rendercolor" "255 255 255"
 "renderamt" "255"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_junk/wood_crate001a.mdl"
 "minhealthdmg" "0"
 "massScale" "0"
@@ -11540,6 +11177,7 @@
 "rendercolor" "255 255 255"
 "renderamt" "255"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_junk/wood_crate001a.mdl"
 "minhealthdmg" "0"
 "massScale" "0"
@@ -11558,7 +11196,7 @@
 "hammerid" "691756"
 }
 {
-"portalnumber" "29"
+"portalnumber" "10"
 "TranslucencyLimit" "0"
 "targetname" "house6_roofportal"
 "target" "house6_roofportalbrush"
@@ -11569,7 +11207,7 @@
 "hammerid" "693159"
 }
 {
-"model" "*115"
+"model" "*100"
 "spawnobject" "0"
 "spawnflags" "0"
 "rendermode" "0"
@@ -11593,7 +11231,7 @@
 "hammerid" "693190"
 }
 {
-"model" "*116"
+"model" "*101"
 "spawnobject" "0"
 "spawnflags" "0"
 "rendermode" "0"
@@ -11617,7 +11255,7 @@
 "hammerid" "693193"
 }
 {
-"model" "*117"
+"model" "*102"
 "spawnobject" "0"
 "spawnflags" "0"
 "rendermode" "0"
@@ -11641,7 +11279,7 @@
 "hammerid" "693196"
 }
 {
-"model" "*118"
+"model" "*103"
 "spawnobject" "0"
 "spawnflags" "0"
 "rendermode" "0"
@@ -11665,7 +11303,7 @@
 "hammerid" "693199"
 }
 {
-"model" "*119"
+"model" "*104"
 "spawnobject" "0"
 "spawnflags" "0"
 "rendermode" "0"
@@ -11689,7 +11327,7 @@
 "hammerid" "693202"
 }
 {
-"model" "*120"
+"model" "*105"
 "spawnobject" "0"
 "spawnflags" "0"
 "rendermode" "0"
@@ -11713,7 +11351,7 @@
 "hammerid" "693205"
 }
 {
-"model" "*121"
+"model" "*106"
 "spawnobject" "0"
 "spawnflags" "0"
 "rendermode" "0"
@@ -11737,7 +11375,7 @@
 "hammerid" "693208"
 }
 {
-"model" "*122"
+"model" "*107"
 "spawnobject" "0"
 "spawnflags" "0"
 "rendermode" "0"
@@ -11815,7 +11453,7 @@
 "hammerid" "693922"
 }
 {
-"model" "*123"
+"model" "*108"
 "targetname" "tunnel_coast03_1b"
 "rendermode" "0"
 "renderfx" "0"
@@ -11829,7 +11467,7 @@
 "hammerid" "697841"
 }
 {
-"portalnumber" "30"
+"portalnumber" "11"
 "TranslucencyLimit" "0"
 "target" "tunnel_coast03_1b"
 "PortalVersion" "1"
@@ -11917,6 +11555,7 @@
 "rendercolor" "255 255 255"
 "renderamt" "255"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_wasteland/barricade002a.mdl"
 "inertiaScale" "1.0"
 "fadescale" "1"
@@ -11931,6 +11570,7 @@
 "rendercolor" "255 255 255"
 "renderamt" "255"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_wasteland/barricade002a.mdl"
 "inertiaScale" "1.0"
 "fadescale" "1"
@@ -11945,6 +11585,7 @@
 "rendercolor" "255 255 255"
 "renderamt" "255"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_wasteland/barricade002a.mdl"
 "inertiaScale" "1.0"
 "fadescale" "1"
@@ -11959,6 +11600,7 @@
 "rendercolor" "255 255 255"
 "renderamt" "255"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_wasteland/barricade002a.mdl"
 "inertiaScale" "1.0"
 "fadescale" "1"
@@ -11973,6 +11615,7 @@
 "rendercolor" "255 255 255"
 "renderamt" "255"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_wasteland/barricade002a.mdl"
 "inertiaScale" "1.0"
 "fadescale" "1"
@@ -12164,6 +11807,7 @@
 "rendercolor" "255 255 255"
 "renderamt" "255"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_junk/garbage_milkcarton002a.mdl"
 "inertiaScale" "1.0"
 "fadescale" "1"
@@ -12181,6 +11825,7 @@
 "pressuredelay" "0"
 "physdamagescale" "0.1"
 "nodamageforces" "0"
+"modelscale" "1.0"
 "model" "models/props_interiors/pot01a.mdl"
 "minhealthdmg" "0"
 "massScale" "0"
@@ -12205,6 +11850,7 @@
 "pressuredelay" "0"
 "physdamagescale" "0.1"
 "nodamageforces" "0"
+"modelscale" "1.0"
 "model" "models/props_c17/FurnitureCouch001a.mdl"
 "minhealthdmg" "0"
 "massScale" "0"
@@ -12227,6 +11873,7 @@
 "rendercolor" "255 255 255"
 "renderamt" "255"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_junk/garbage_coffeemug001a.mdl"
 "inertiaScale" "1.0"
 "fadescale" "1"
@@ -12241,6 +11888,7 @@
 "rendercolor" "255 255 255"
 "renderamt" "255"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_junk/garbage_metalcan002a.mdl"
 "inertiaScale" "1.0"
 "fadescale" "1"
@@ -12255,6 +11903,7 @@
 "rendercolor" "255 255 255"
 "renderamt" "255"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_junk/garbage_metalcan002a.mdl"
 "inertiaScale" "1.0"
 "fadescale" "1"
@@ -12278,6 +11927,7 @@
 "pressuredelay" "0"
 "physdamagescale" "0.1"
 "nodamageforces" "0"
+"modelscale" "1.0"
 "model" "models/props_interiors/Furniture_chair01a.mdl"
 "minhealthdmg" "0"
 "massScale" "0"
@@ -12299,6 +11949,7 @@
 "rendercolor" "255 255 255"
 "renderamt" "255"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_junk/garbage_coffeemug001a.mdl"
 "inertiaScale" "1.0"
 "fadescale" "1"
@@ -12313,6 +11964,7 @@
 "rendercolor" "255 255 255"
 "renderamt" "255"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_junk/garbage_takeoutcarton001a.mdl"
 "inertiaScale" "1.0"
 "fadescale" "1"
@@ -12327,6 +11979,7 @@
 "rendercolor" "255 255 255"
 "renderamt" "255"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_junk/garbage_milkcarton002a.mdl"
 "inertiaScale" "1.0"
 "fadescale" "1"
@@ -12344,6 +11997,7 @@
 "pressuredelay" "0"
 "physdamagescale" "0.1"
 "nodamageforces" "0"
+"modelscale" "1.0"
 "model" "models/props_c17/FurnitureCouch001a.mdl"
 "minhealthdmg" "0"
 "massScale" "0"
@@ -12370,6 +12024,7 @@
 "pressuredelay" "0"
 "physdamagescale" "0.1"
 "nodamageforces" "0"
+"modelscale" "1.0"
 "model" "models/props_c17/Frame002a.mdl"
 "minhealthdmg" "0"
 "massScale" "0"
@@ -12395,6 +12050,7 @@
 "pressuredelay" "0"
 "physdamagescale" "0.1"
 "nodamageforces" "0"
+"modelscale" "1.0"
 "model" "models/props_c17/Frame002a.mdl"
 "minhealthdmg" "0"
 "massScale" "0"
@@ -12418,6 +12074,7 @@
 "renderamt" "255"
 "pressuredelay" "0"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_wasteland/controlroom_storagecloset001a.mdl"
 "minhealthdmg" "0"
 "mindxlevel" "0"
@@ -12444,6 +12101,7 @@
 "renderamt" "255"
 "pressuredelay" "0"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_wasteland/controlroom_storagecloset001a.mdl"
 "minhealthdmg" "0"
 "mindxlevel" "0"
@@ -12470,6 +12128,7 @@
 "renderamt" "255"
 "pressuredelay" "0"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_wasteland/controlroom_storagecloset001a.mdl"
 "minhealthdmg" "0"
 "mindxlevel" "0"
@@ -12984,6 +12643,7 @@
 "rendercolor" "255 255 255"
 "renderamt" "255"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_debris/wood_board06a.mdl"
 "inertiaScale" "1.0"
 "fadescale" "1"
@@ -12998,6 +12658,7 @@
 "origin" "-3216 -6264 596"
 "spawnflags" "256"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "ItemCount" "2"
 "ItemClass" "item_dynamic_resupply"
 "inertiaScale" "1.0"
@@ -13013,6 +12674,7 @@
 "origin" "-3216 -6264 624"
 "spawnflags" "256"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "ItemCount" "1"
 "ItemClass" "weapon_357"
 "inertiaScale" "1.0"
@@ -13031,6 +12693,7 @@
 "rendercolor" "255 255 255"
 "renderamt" "255"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_wasteland/wood_fence01a.mdl"
 "inertiaScale" "1.0"
 "fadescale" "1"
@@ -13046,6 +12709,7 @@
 "rendercolor" "255 255 255"
 "renderamt" "255"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_wasteland/wood_fence01b.mdl"
 "inertiaScale" "1.0"
 "fadescale" "1"
@@ -13061,6 +12725,7 @@
 "rendercolor" "255 255 255"
 "renderamt" "255"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_wasteland/wood_fence01c.mdl"
 "inertiaScale" "1.0"
 "fadescale" "1"
@@ -13076,6 +12741,7 @@
 "rendercolor" "255 255 255"
 "renderamt" "255"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_wasteland/wood_fence02a.mdl"
 "inertiaScale" "1.0"
 "fadescale" "1"
@@ -13091,6 +12757,7 @@
 "rendercolor" "255 255 255"
 "renderamt" "255"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_wasteland/wood_fence01a.mdl"
 "inertiaScale" "1.0"
 "fadescale" "1"
@@ -13106,6 +12773,7 @@
 "rendercolor" "255 255 255"
 "renderamt" "255"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_wasteland/wood_fence01c.mdl"
 "inertiaScale" "1.0"
 "fadescale" "1"
@@ -13121,6 +12789,7 @@
 "rendercolor" "255 255 255"
 "renderamt" "255"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_wasteland/wood_fence01a.mdl"
 "inertiaScale" "1.0"
 "fadescale" "1"
@@ -13136,6 +12805,7 @@
 "rendercolor" "255 255 255"
 "renderamt" "255"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_wasteland/wood_fence02a.mdl"
 "inertiaScale" "1.0"
 "fadescale" "1"
@@ -13151,6 +12821,7 @@
 "rendercolor" "255 255 255"
 "renderamt" "255"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_wasteland/wood_fence02a.mdl"
 "inertiaScale" "1.0"
 "fadescale" "1"
@@ -13450,6 +13121,7 @@
 "rendercolor" "255 255 255"
 "renderamt" "255"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_junk/gascan001a.mdl"
 "inertiaScale" "1.0"
 "fadescale" "1"
@@ -13464,6 +13136,7 @@
 "rendercolor" "255 255 255"
 "renderamt" "255"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_junk/gascan001a.mdl"
 "inertiaScale" "1.0"
 "fadescale" "1"
@@ -13478,6 +13151,7 @@
 "rendercolor" "255 255 255"
 "renderamt" "255"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_junk/gascan001a.mdl"
 "inertiaScale" "1.0"
 "fadescale" "1"
@@ -13487,7 +13161,7 @@
 "hammerid" "729138"
 }
 {
-"model" "*124"
+"model" "*109"
 "StartDisabled" "0"
 "spawnflags" "1"
 "origin" "-3808 -6184 616"
@@ -13503,6 +13177,7 @@
 "renderamt" "255"
 "pressuredelay" "0"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_wasteland/controlroom_storagecloset001a.mdl"
 "minhealthdmg" "0"
 "mindxlevel" "0"
@@ -13529,6 +13204,7 @@
 "renderamt" "255"
 "pressuredelay" "0"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_wasteland/controlroom_storagecloset001a.mdl"
 "minhealthdmg" "0"
 "mindxlevel" "0"
@@ -13558,6 +13234,7 @@
 "physdamagescale" "0.1"
 "PerformanceMode" "0"
 "nodamageforces" "0"
+"modelscale" "1.0"
 "model" "models/props_c17/furniturechair001a.mdl"
 "minhealthdmg" "0"
 "mindxlevel" "0"
@@ -13585,6 +13262,7 @@
 "renderamt" "255"
 "pressuredelay" "0"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_c17/furniturechair001a.mdl"
 "minhealthdmg" "0"
 "massScale" "0"
@@ -13610,6 +13288,7 @@
 "renderamt" "255"
 "pressuredelay" "0"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_lab/reciever01a.mdl"
 "minhealthdmg" "0"
 "massScale" "0"
@@ -13635,6 +13314,7 @@
 "renderamt" "255"
 "pressuredelay" "0"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_lab/reciever01a.mdl"
 "minhealthdmg" "0"
 "massScale" "0"
@@ -13660,6 +13340,7 @@
 "renderamt" "255"
 "pressuredelay" "0"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_lab/reciever01a.mdl"
 "minhealthdmg" "0"
 "massScale" "0"
@@ -13685,6 +13366,7 @@
 "renderamt" "255"
 "pressuredelay" "0"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_lab/harddrive02.mdl"
 "minhealthdmg" "0"
 "massScale" "0"
@@ -13710,6 +13392,7 @@
 "renderamt" "255"
 "pressuredelay" "0"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_lab/reciever_cart.mdl"
 "minhealthdmg" "0"
 "massScale" "0"
@@ -13813,6 +13496,7 @@
 "renderamt" "255"
 "pressuredelay" "0"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_c17/furniturechair001a.mdl"
 "minhealthdmg" "0"
 "massScale" "0"
@@ -13836,6 +13520,7 @@
 "renderamt" "255"
 "pressuredelay" "0"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_c17/furniturechair001a.mdl"
 "minhealthdmg" "0"
 "massScale" "0"
@@ -13859,6 +13544,7 @@
 "renderamt" "255"
 "pressuredelay" "0"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_c17/furniturechair001a.mdl"
 "minhealthdmg" "0"
 "massScale" "0"
@@ -13947,7 +13633,7 @@
 "hammerid" "739591"
 }
 {
-"model" "*125"
+"model" "*110"
 "wait" "1"
 "spawnflags" "2"
 "origin" "1696 3984 508"
@@ -13956,7 +13642,7 @@
 "OnStartTouch" "!activator,Kill,,0,-1"
 }
 {
-"model" "*126"
+"model" "*111"
 "StartDisabled" "0"
 "spawnflags" "0"
 "origin" "4208.77 6380.16 -64"
@@ -14027,7 +13713,7 @@
 "hammerid" "747284"
 }
 {
-"model" "*127"
+"model" "*112"
 "wait" "4"
 "unlocked_sentence" "0"
 "targetname" "village_gate"
@@ -14050,7 +13736,7 @@
 "hammerid" "750939"
 }
 {
-"model" "*128"
+"model" "*113"
 "wait" "4"
 "unlocked_sentence" "0"
 "targetname" "village_gate"
@@ -14287,7 +13973,7 @@
 "hammerid" "773332"
 }
 {
-"model" "*129"
+"model" "*114"
 "wait" "1"
 "StartDisabled" "0"
 "spawnflags" "1"
@@ -14301,6 +13987,7 @@
 "origin" "8432 4298 512.439"
 "spawnflags" "256"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "ItemCount" "2"
 "ItemClass" "weapon_frag"
 "inertiaScale" "1.0"
@@ -14419,7 +14106,7 @@
 "targetname" "lcs_odessaGreeting"
 "target1" "citizen_b_regular_original"
 "SceneFile" "scenes/coast/odessa/leadstart.vcd"
-"busyactor" "1"
+"busyactor" "0"
 "classname" "logic_choreographed_scene"
 "hammerid" "791635"
 "OnCompletion" "lcs_odessaGreeting,Start,,10,-1"
@@ -14458,7 +14145,7 @@
 "target2" "citizen_a_ammo_original"
 "target1" "rocketman"
 "SceneFile" "scenes/coast/odessa/cub_showyou.vcd"
-"busyactor" "1"
+"busyactor" "0"
 "classname" "logic_choreographed_scene"
 "hammerid" "794966"
 "OnTrigger1" "rocketman_scene_0,Pause,,0,-1"
@@ -14469,7 +14156,7 @@
 "OnCompletion" "gunship_arrival_relay,Trigger,,0,1"
 }
 {
-"model" "*130"
+"model" "*115"
 "targetname" "trigger_gordoninbasement"
 "StartDisabled" "0"
 "spawnflags" "1"
@@ -14578,7 +14265,7 @@
 "OnConditionsSatisfied" "pd_rpg,Kill,,0,-1"
 }
 {
-"model" "*131"
+"model" "*116"
 "wait" "3"
 "unlocked_sentence" "0"
 "speed" "100"
@@ -14636,6 +14323,7 @@
 "solid" "6"
 "rendercolor" "255 255 255"
 "renderamt" "255"
+"modelscale" "1.0"
 "model" "models/props_combine/CombineButton.mdl"
 "MinAnimTime" "5"
 "MaxAnimTime" "10"
@@ -14646,7 +14334,7 @@
 "hammerid" "806238"
 }
 {
-"model" "*132"
+"model" "*117"
 "wait" "3"
 "unlocked_sentence" "0"
 "speed" "100"
@@ -14704,6 +14392,7 @@
 "solid" "6"
 "rendercolor" "255 255 255"
 "renderamt" "255"
+"modelscale" "1.0"
 "model" "models/props_combine/CombineButton.mdl"
 "MinAnimTime" "5"
 "MaxAnimTime" "10"
@@ -14714,7 +14403,7 @@
 "hammerid" "806519"
 }
 {
-"model" "*133"
+"model" "*118"
 "wait" "3"
 "unlocked_sentence" "0"
 "speed" "100"
@@ -14772,6 +14461,7 @@
 "solid" "6"
 "rendercolor" "255 255 255"
 "renderamt" "255"
+"modelscale" "1.0"
 "model" "models/props_combine/CombineButton.mdl"
 "MinAnimTime" "5"
 "MaxAnimTime" "10"
@@ -14782,7 +14472,7 @@
 "hammerid" "806737"
 }
 {
-"model" "*134"
+"model" "*119"
 "wait" "3"
 "unlocked_sentence" "0"
 "speed" "100"
@@ -14840,6 +14530,7 @@
 "solid" "6"
 "rendercolor" "255 255 255"
 "renderamt" "255"
+"modelscale" "1.0"
 "model" "models/props_combine/CombineButton.mdl"
 "MinAnimTime" "5"
 "MaxAnimTime" "10"
@@ -14929,7 +14620,7 @@
 "targetname" "odessa_getyourcar"
 "target1" "rocketman"
 "SceneFile" "scenes/coast/odessa/cub_welldone.vcd"
-"busyactor" "1"
+"busyactor" "0"
 "classname" "logic_choreographed_scene"
 "hammerid" "813579"
 "OnCompletion" "lr_odessa_getyourcar,Trigger,,0,-1"
@@ -14940,7 +14631,7 @@
 "targetname" "odessa_goodbye"
 "target1" "rocketman"
 "SceneFile" "scenes/coast/odessa/cub_farewell.vcd"
-"busyactor" "1"
+"busyactor" "0"
 "classname" "logic_choreographed_scene"
 "hammerid" "813581"
 "OnCompletion" "lr_odessa_goodbye,Trigger,,0,-1"
@@ -15008,7 +14699,7 @@
 "OnEntitySpawned" "gatekeeper,StartScripting,,0,-1"
 }
 {
-"model" "*135"
+"model" "*120"
 "wait" "1"
 "targetname" "gate_jeep_trigger"
 "StartDisabled" "1"
@@ -15022,7 +14713,7 @@
 "OnTrigger" "gate_jeep_trigger,Disable,,0,-1"
 }
 {
-"model" "*136"
+"model" "*121"
 "wait" "10"
 "targetname" "gate_message_trigger"
 "StartDisabled" "1"
@@ -15037,7 +14728,7 @@
 "targetname" "gatekeeper_getyourcar1"
 "target1" "gatekeeper"
 "SceneFile" "scenes/coast/odessa/nlo_getyourjeep.vcd"
-"busyactor" "1"
+"busyactor" "0"
 "classname" "logic_choreographed_scene"
 "hammerid" "817804"
 }
@@ -15046,7 +14737,7 @@
 "targetname" "gatekeeper_goodbye"
 "target1" "gatekeeper"
 "SceneFile" "scenes/coast/odessa/nlo_farewell.vcd"
-"busyactor" "1"
+"busyactor" "0"
 "classname" "logic_choreographed_scene"
 "hammerid" "817806"
 "OnTrigger1" "village_gate,Open,,0,-1"
@@ -15056,7 +14747,7 @@
 "targetname" "lcs_playernotice_1"
 "target1" "citizen_a_ammo_original"
 "SceneFile" "scenes/trainyard/LookAtPlayer.vcd"
-"busyactor" "1"
+"busyactor" "0"
 "classname" "logic_choreographed_scene"
 "hammerid" "817850"
 }
@@ -15065,12 +14756,12 @@
 "targetname" "lcs_playernotice_2"
 "target1" "citizen_a_medic_original"
 "SceneFile" "scenes/trainyard/LookAtPlayer.vcd"
-"busyactor" "1"
+"busyactor" "0"
 "classname" "logic_choreographed_scene"
 "hammerid" "817862"
 }
 {
-"model" "*137"
+"model" "*122"
 "wait" "10"
 "targetname" "trigger_pre1b"
 "StartDisabled" "1"
@@ -15086,7 +14777,7 @@
 "targetname" "lcs_actbusy_pre1b_2"
 "target1" "citizen_a_precmbt_1"
 "SceneFile" "scenes/coast/odessa/nlo_citizen_greet02.vcd"
-"busyactor" "1"
+"busyactor" "0"
 "classname" "logic_choreographed_scene"
 "hammerid" "821298"
 "OnStart" "mc_pre1b,Add,1,0,-1"
@@ -15108,7 +14799,7 @@
 "targetname" "lcs_actbusy_pre1b_3"
 "target1" "citizen_a_precmbt_1"
 "SceneFile" "scenes/coast/odessa/nlo_citizen_greet05.vcd"
-"busyactor" "1"
+"busyactor" "0"
 "classname" "logic_choreographed_scene"
 "hammerid" "821346"
 }
@@ -15119,7 +14810,7 @@
 "target2" "it_sky"
 "target1" "citizen_a_precmbt_1"
 "SceneFile" "scenes/coast/odessa/nlo_citizen_greet01.vcd"
-"busyactor" "1"
+"busyactor" "0"
 "classname" "logic_choreographed_scene"
 "hammerid" "821350"
 "OnStart" "mc_pre1b,Add,1,0,-1"
@@ -15139,12 +14830,12 @@
 "targetname" "lcs_actbusy_post1_1"
 "target1" "citizen_b_regular_*"
 "SceneFile" "scenes/coast/odessa/nlo_citizen_post01.vcd"
-"busyactor" "1"
+"busyactor" "0"
 "classname" "logic_choreographed_scene"
 "hammerid" "822392"
 }
 {
-"model" "*138"
+"model" "*123"
 "wait" "10"
 "targetname" "trigger_post1"
 "StartDisabled" "1"
@@ -15173,7 +14864,7 @@
 "targetname" "lcs_odessa_lead"
 "target1" "citizen_b_regular_original"
 "SceneFile" "scenes/coast/odessa/leadwaitover.vcd"
-"busyactor" "1"
+"busyactor" "0"
 "classname" "logic_choreographed_scene"
 "hammerid" "822661"
 "OnCompletion" "lr_resume_lead,Enable,,0,-1"
@@ -15190,7 +14881,7 @@
 "target2" "binoccit_2"
 "target1" "binoccit_1"
 "SceneFile" "scenes/coast/odessa/binoc_scene.vcd"
-"busyactor" "1"
+"busyactor" "0"
 "classname" "logic_choreographed_scene"
 "hammerid" "822952"
 "OnCompletion" "lcs_binoccitloop,Start,,0,-1"
@@ -15203,7 +14894,7 @@
 "hammerid" "826342"
 }
 {
-"model" "*139"
+"model" "*124"
 "wait" "10"
 "targetname" "trigger_pretower"
 "StartDisabled" "0"
@@ -15219,7 +14910,7 @@
 "targetname" "lcs_actbusy_pretower_1"
 "target1" "citizen_tower_guy"
 "SceneFile" "scenes/coast/odessa/nlo_citizen_greet01.vcd"
-"busyactor" "1"
+"busyactor" "0"
 "classname" "logic_choreographed_scene"
 "hammerid" "826441"
 }
@@ -15228,7 +14919,7 @@
 "targetname" "lcs_actbusy_pretower_4"
 "target1" "citizen_tower_guy"
 "SceneFile" "scenes/coast/odessa/nlo_citizen_greet05.vcd"
-"busyactor" "1"
+"busyactor" "0"
 "classname" "logic_choreographed_scene"
 "hammerid" "826447"
 }
@@ -15275,6 +14966,7 @@
 "pressuredelay" "0"
 "PerformanceMode" "0"
 "parentname" "rocketman"
+"modelscale" "1.0"
 "model" "models/Weapons/w_rocket_launcher.mdl"
 "mindxlevel" "0"
 "MinAnimTime" "5"
@@ -15332,7 +15024,7 @@
 "OnTrigger" "aigf_combat,Deactivate,,0,-1"
 }
 {
-"model" "*140"
+"model" "*125"
 "wait" "0"
 "targetname" "trigger_odessa"
 "StartDisabled" "1"
@@ -15353,7 +15045,7 @@
 "targetname" "lcs_odessa_stare"
 "target1" "rocketman"
 "SceneFile" "scenes/trainyard/LookAtPlayer.vcd"
-"busyactor" "1"
+"busyactor" "0"
 "classname" "logic_choreographed_scene"
 "hammerid" "834942"
 }
@@ -15519,7 +15211,7 @@
 "target2" "binoccit_2"
 "target1" "binoccit_1"
 "SceneFile" "scenes/coast/odessa/binoc_scene_loop.vcd"
-"busyactor" "1"
+"busyactor" "0"
 "classname" "logic_choreographed_scene"
 "hammerid" "839841"
 "OnCompletion" "lcs_binoccitloop,Start,,0,-1"
@@ -15670,6 +15362,7 @@
 "rendercolor" "255 255 255"
 "renderamt" "255"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_junk/PlasticCrate01a.mdl"
 "inertiaScale" "1.0"
 "fadescale" "1"
@@ -15685,6 +15378,7 @@
 "rendercolor" "255 255 255"
 "renderamt" "255"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_lab/reciever01d.mdl"
 "inertiaScale" "1.0"
 "fadescale" "1"
@@ -15932,7 +15626,7 @@
 "targetname" "lcs_actbusy_post3_A"
 "target1" "citizen_a_medic_*"
 "SceneFile" "scenes/coast/odessa/PostBattle_Idle01.vcd"
-"busyactor" "1"
+"busyactor" "0"
 "classname" "logic_choreographed_scene"
 "hammerid" "858316"
 }
@@ -15941,7 +15635,7 @@
 "targetname" "lcs_actbusy_post2_A"
 "target1" "citizen_a_ammo_*"
 "SceneFile" "scenes/coast/odessa/PostBattle_Idle02.vcd"
-"busyactor" "1"
+"busyactor" "0"
 "classname" "logic_choreographed_scene"
 "hammerid" "858330"
 }
@@ -15950,7 +15644,7 @@
 "targetname" "lcs_actbusy_post1_A"
 "target1" "citizen_b_regular_*"
 "SceneFile" "scenes/coast/odessa/PostBattle_Idle02.vcd"
-"busyactor" "1"
+"busyactor" "0"
 "classname" "logic_choreographed_scene"
 "hammerid" "858367"
 }
@@ -16084,7 +15778,7 @@
 "hammerid" "865585"
 }
 {
-"model" "*141"
+"model" "*126"
 "wait" "15"
 "targetname" "trigger_radio"
 "StartDisabled" "0"
@@ -16132,7 +15826,7 @@
 "OnTrigger" "ag_squee,PlaySound,,0,-1"
 }
 {
-"model" "*142"
+"model" "*127"
 "wait" "5"
 "StartDisabled" "0"
 "spawnflags" "1"
@@ -16191,6 +15885,7 @@
 "origin" "-5176 4332 261.439"
 "spawnflags" "256"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "ItemCount" "2"
 "ItemClass" "item_dynamic_resupply"
 "inertiaScale" "1.0"
@@ -16220,7 +15915,7 @@
 "targetname" "rocketman_radioloop"
 "target1" "rocketman"
 "SceneFile" "scenes/coast/odessa/cub_radioloop.vcd"
-"busyactor" "1"
+"busyactor" "0"
 "classname" "logic_choreographed_scene"
 "hammerid" "879931"
 "OnCompletion" "lr_radioloop,Trigger,,3,-1"
@@ -16277,7 +15972,7 @@
 "targetname" "gatekeeper_getyourcar2"
 "target1" "gatekeeper"
 "SceneFile" "scenes/coast/odessa/nlo_getyourjeep2.vcd"
-"busyactor" "1"
+"busyactor" "0"
 "classname" "logic_choreographed_scene"
 "hammerid" "883625"
 }
@@ -16286,7 +15981,7 @@
 "targetname" "gatekeeper_getyourcar3"
 "target1" "gatekeeper"
 "SceneFile" "scenes/coast/odessa/nlo_getyourjeep3.vcd"
-"busyactor" "1"
+"busyactor" "0"
 "classname" "logic_choreographed_scene"
 "hammerid" "883629"
 }
@@ -16305,6 +16000,7 @@
 "renderamt" "255"
 "pressuredelay" "0"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_wasteland/controlroom_desk001b.mdl"
 "minhealthdmg" "0"
 "massScale" "0"
@@ -16409,6 +16105,7 @@
 "rendercolor" "255 255 255"
 "renderamt" "255"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_junk/wood_crate002a.mdl"
 "minhealthdmg" "0"
 "massScale" "0"
@@ -16432,6 +16129,7 @@
 "rendercolor" "255 255 255"
 "renderamt" "255"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_junk/wood_crate001a.mdl"
 "minhealthdmg" "0"
 "massScale" "0"
@@ -16455,6 +16153,7 @@
 "rendercolor" "255 255 255"
 "renderamt" "255"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_junk/PushCart01a.mdl"
 "minhealthdmg" "0"
 "massScale" "0"
@@ -16478,6 +16177,7 @@
 "renderamt" "255"
 "pressuredelay" "0"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_lab/reciever_cart.mdl"
 "minhealthdmg" "0"
 "massScale" "0"
@@ -16503,6 +16203,7 @@
 "rendercolor" "255 255 255"
 "renderamt" "255"
 "physdamagescale" "0.1"
+"modelscale" "1.0"
 "model" "models/props_junk/wood_pallet001a.mdl"
 "minhealthdmg" "0"
 "massScale" "0"
@@ -16634,7 +16335,7 @@
 "targetname" "vort_goodbye"
 "target1" "vort"
 "SceneFile" "scenes/coast/odessa/vort_farewell.vcd"
-"busyactor" "1"
+"busyactor" "0"
 "classname" "logic_choreographed_scene"
 "hammerid" "903730"
 "OnCompletion" "lr_vort_goodbye,Trigger,,1,-1"
@@ -16666,7 +16367,7 @@
 "targetname" "lcs_actbusy_pre2b_lookself"
 "target1" "citizen_a_precmbt_2"
 "SceneFile" "scenes/trainyard/LookAtSelfpause.vcd"
-"busyactor" "1"
+"busyactor" "0"
 "classname" "logic_choreographed_scene"
 "hammerid" "910808"
 "OnTrigger1" "lcs_actbusy_pre2b_lookself,Pause,,0,-1"
@@ -18056,7 +17757,7 @@
 "hammerid" "925941"
 }
 {
-"model" "*143"
+"model" "*128"
 "wait" "1"
 "StartDisabled" "0"
 "spawnflags" "1"
@@ -18070,7 +17771,7 @@
 "OnStartTouch" "gman_template,ForceSpawn,,0,1"
 }
 {
-"model" "*144"
+"model" "*129"
 "StartDisabled" "0"
 "spawnflags" "8"
 "origin" "992 -2176 -160"
@@ -18125,12 +17826,12 @@
 "hammerid" "935273"
 }
 {
-"model" "*145"
+"model" "*130"
 "classname" "func_vehicleclip"
 "hammerid" "939044"
 }
 {
-"model" "*146"
+"model" "*131"
 "classname" "func_vehicleclip"
 "hammerid" "939053"
 }
@@ -18144,22 +17845,22 @@
 "hammerid" "939183"
 }
 {
-"model" "*147"
+"model" "*132"
 "classname" "func_vehicleclip"
 "hammerid" "939281"
 }
 {
-"model" "*148"
+"model" "*133"
 "classname" "func_vehicleclip"
 "hammerid" "942978"
 }
 {
-"model" "*149"
+"model" "*134"
 "classname" "func_vehicleclip"
 "hammerid" "943000"
 }
 {
-"model" "*150"
+"model" "*135"
 "wait" "1"
 "StartDisabled" "0"
 "spawnflags" "1"
@@ -18179,6 +17880,7 @@
 "origin" "-235.184 9081.95 480.767"
 "targetname" "ragdoll_manager"
 "MaxRagdollCountLowEnd" "-1"
+"MaxRagdollCountDX8" "-1"
 "MaxRagdollCount" "3"
 "classname" "game_ragdoll_manager"
 "hammerid" "954461"
@@ -18207,7 +17909,7 @@
 "hammerid" "954636"
 }
 {
-"model" "*151"
+"model" "*136"
 "StartDisabled" "0"
 "spawnflags" "1"
 "origin" "5760 384 256"
@@ -18361,7 +18063,7 @@
 "hammerid" "969749"
 }
 {
-"model" "*152"
+"model" "*137"
 "targetname" "garage_door_1"
 "spawnobject" "0"
 "spawnflags" "0"
@@ -18393,7 +18095,7 @@
 "hammerid" "973623"
 }
 {
-"model" "*153"
+"model" "*138"
 "targetname" "garage_door_2"
 "spawnobject" "0"
 "spawnflags" "0"
@@ -18436,6 +18138,7 @@
 "origin" "5958.85 5136.47 281.122"
 "targetname" "antlion_ragdoll"
 "spawnflags" "0"
+"modelscale" "1.0"
 "model" "models/AntLion.mdl"
 "fadescale" "1"
 "fademindist" "-1"
@@ -18501,12 +18204,12 @@
 "OnScriptEvent01" "antlion_exp,Explode,,0,-1"
 }
 {
-"model" "*154"
+"model" "*139"
 "classname" "func_vehicleclip"
 "hammerid" "986329"
 }
 {
-"model" "*155"
+"model" "*140"
 "StartDisabled" "0"
 "spawnflags" "1"
 "origin" "-5477.39 2704 602.67"
@@ -18545,7 +18248,7 @@
 "hammerid" "997456"
 }
 {
-"model" "*156"
+"model" "*141"
 "StartDisabled" "0"
 "spawnflags" "1"
 "origin" "8784 4032 320"
@@ -18618,14 +18321,17 @@
 "use_angles" "1"
 "targetname" "fog"
 "fogstart" "1000"
+"fogradial" "1"
 "fogmaxdensity" "1"
 "fogend" "6500"
 "fogenable" "1"
 "fogdir" "1 0 0"
-"fogcolor2" "223 36 40"
-"fogcolor" "133 144 153"
-"fogblend" "0"
-"farz" "7300"
+"fogcolor_hdr" "135 147 156"
+"fogcolor2_hdr" "135 147 156"
+"fogcolor2" "169 177 184"
+"fogcolor" "214 223 220"
+"fogblend" "1"
+"farz" "-1"
 "angles" "0 280 0"
 "classname" "env_fog_controller"
 "hammerid" "1028387"
@@ -18643,7 +18349,7 @@
 "hammerid" "1035845"
 }
 {
-"model" "*157"
+"model" "*142"
 "targetname" "kill_greeter"
 "StartDisabled" "1"
 "spawnflags" "1"
@@ -18702,7 +18408,7 @@
 "hammerid" "1039764"
 }
 {
-"model" "*158"
+"model" "*143"
 "StartDisabled" "0"
 "spawnflags" "0"
 "Solidity" "0"
@@ -18857,14 +18563,14 @@
 "spawnflags" "0"
 "classname" "logic_auto"
 "hammerid" "1075972"
-"OnMapSpawn" "tonemap_controller,SetAutoExposureMax,3,0,-1"
+"OnMapSpawn" "tonemap_controller,SetAutoExposureMax,2,0,-1"
 "OnMapSpawn" "tonemap_controller,SetAutoExposureMin,.5,0,-1"
 "OnMapSpawn" "tonemap_controller,SetTonemapRate,.5,0,-1"
 "OnMapSpawn" "tonemap_controller,SetBloomScale,.5,0,-1"
 "OnMapTransition" "tonemap_controller,SetBloomScale,.5,0,-1"
 "OnMapTransition" "tonemap_controller,SetTonemapRate,.5,0,-1"
 "OnMapTransition" "tonemap_controller,SetAutoExposureMin,.5,0,-1"
-"OnMapTransition" "tonemap_controller,SetAutoExposureMax,3,0,-1"
+"OnMapTransition" "tonemap_controller,SetAutoExposureMax,2,0,-1"
 }
 {
 "origin" "8247 4387.3 464.984"
@@ -18913,7 +18619,7 @@
 "hammerid" "1087705"
 }
 {
-"model" "*159"
+"model" "*144"
 "targetname" "house6_roofportalbrush"
 "rendermode" "0"
 "renderfx" "0"
@@ -19409,7 +19115,7 @@
 "hammerid" "1097630"
 }
 {
-"model" "*160"
+"model" "*145"
 "vrad_brush_cast_shadows" "0"
 "StartDisabled" "0"
 "spawnflags" "2"
@@ -19429,7 +19135,7 @@
 "hammerid" "1101531"
 }
 {
-"model" "*161"
+"model" "*146"
 "vrad_brush_cast_shadows" "0"
 "StartDisabled" "0"
 "spawnflags" "2"
@@ -19449,7 +19155,7 @@
 "hammerid" "1101550"
 }
 {
-"model" "*162"
+"model" "*147"
 "vrad_brush_cast_shadows" "0"
 "StartDisabled" "0"
 "spawnflags" "2"
@@ -19467,5 +19173,38 @@
 "disablereceiveshadows" "0"
 "classname" "func_brush"
 "hammerid" "1101601"
+}
+{
+"origin" "0 0 -2400"
+"use_angles" "1"
+"scale" "16"
+"fogstart" "1000"
+"fogradial" "1"
+"fogend" "6500"
+"fogenable" "1"
+"fogdir" "1 0 0"
+"fogcolor_hdr" "135 147 156"
+"fogcolor2_hdr" "135 147 156"
+"fogcolor2" "169 177 184"
+"fogcolor" "214 223 220"
+"fogblend" "1"
+"angles" "0 280 0"
+"classname" "sky_camera"
+"hammerid" "1111810"
+}
+{
+"origin" "-544 6656 1472"
+"overlaymaterial" "sprites/light_glow02_add_noz"
+"material" "sprites/light_glow02_add_noz"
+"overlaysize" "-1"
+"use_angles" "1"
+"size" "24"
+"rendercolor" "255 244 213"
+"pitch" "-40"
+"overlaycolor" "0 0 0"
+"HDRColorScale" ".5"
+"angles" "0 269 0"
+"classname" "env_sun"
+"hammerid" "1116200"
 }
  
