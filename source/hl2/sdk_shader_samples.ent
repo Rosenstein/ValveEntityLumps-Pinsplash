@@ -1,0 +1,86 @@
+{
+"world_maxs" "256 160 256"
+"world_mins" "-512 -256 0"
+"maxpropscreenwidth" "-1"
+"skyname" "sky_wasteland02"
+"classname" "worldspawn"
+}
+{
+"origin" "-256 -64 96"
+"_quadratic_attn" "1"
+"_light" "255 224 204 100"
+"classname" "light"
+}
+{
+"origin" "-256 -192 32"
+"angles" "0 90 0"
+"classname" "info_player_start"
+}
+{
+"origin" "0 -64 96"
+"_quadratic_attn" "1"
+"_light" "255 224 204 100"
+"classname" "light"
+}
+{
+"origin" "-320 64 96"
+"_quadratic_attn" "1"
+"_light" "218 239 254 25"
+"classname" "light"
+}
+{
+"origin" "64 64 96"
+"_quadratic_attn" "1"
+"_light" "218 239 254 25"
+"classname" "light"
+}
+{
+"origin" "-128 -64 96"
+"_quadratic_attn" "1"
+"_light" "255 224 204 100"
+"classname" "light"
+}
+{
+"origin" "-384 -64 96"
+"_quadratic_attn" "1"
+"_light" "255 224 204 100"
+"classname" "light"
+}
+{
+"origin" "128 -64 96"
+"_quadratic_attn" "1"
+"_light" "255 224 204 50"
+"classname" "light"
+}
+{
+"origin" "-64 64 96"
+"_quadratic_attn" "1"
+"_light" "218 239 254 25"
+"classname" "light"
+}
+{
+"origin" "-192 64 96"
+"_quadratic_attn" "1"
+"_light" "218 239 254 25"
+"classname" "light"
+}
+{
+"origin" "-128 0 64"
+"renderamt" "255"
+"rendercolor" "255 255 255"
+"twist" "0"
+"SmokeMaterial" "sdk/sdk_particle.vmt"
+"WindSpeed" "0"
+"WindAngle" "0"
+"JetLength" "180"
+"Rate" "20"
+"EndSize" "30"
+"StartSize" "20"
+"Speed" "30"
+"SpreadSpeed" "15"
+"BaseSpread" "20"
+"InitialState" "1"
+"angles" "0 0 0"
+"classname" "env_smokestack"
+}
+ 

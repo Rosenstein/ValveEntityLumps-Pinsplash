@@ -1,0 +1,120 @@
+{
+"world_maxs" "224 224 -128"
+"world_mins" "-224 -224 -480"
+"maxpropscreenwidth" "-1"
+"skyname" "sky_wasteland02"
+"classname" "worldspawn"
+}
+{
+"origin" "-192 0 -478"
+"angles" "0 0 0"
+"classname" "info_player_start"
+}
+{
+"origin" "-160 0 -400"
+"targetname" "viewcontrol_credits"
+"spawnflags" "3"
+"deceleration" "500"
+"acceleration" "500"
+"speed" "0"
+"wait" "10"
+"angles" "0 0 0"
+"classname" "point_viewcontrol"
+}
+{
+"origin" "-128 -70.2 -392"
+"targetname" "logic_ending_credits"
+"StartDisabled" "0"
+"spawnflags" "48"
+"classname" "logic_relay"
+"OnTrigger" "credits,RollOutroCredits,,0,-1"
+"OnTrigger" "song3,PlaySound,,0,-1"
+"OnTrigger" "hl1_song25,PlaySound,,91.5,-1"
+}
+{
+"origin" "-128 -70.2 -408"
+"message" "song_credits_1"
+"targetname" "song3"
+"spawnflags" "48"
+"radius" "1250"
+"cspinup" "0"
+"lfomodvol" "0"
+"lfomodpitch" "0"
+"lforate" "0"
+"lfotype" "0"
+"spindown" "0"
+"spinup" "0"
+"pitchstart" "100"
+"pitch" "100"
+"fadeout" "0"
+"fadein" "0"
+"volstart" "0"
+"preset" "0"
+"health" "10"
+"classname" "ambient_generic"
+}
+{
+"origin" "-168 0 -472"
+"StartDisabled" "0"
+"targetname" "citadel_soundscape_temp"
+"soundscape" "Automatic_Dialog"
+"radius" "-1"
+"classname" "env_soundscape"
+}
+{
+"origin" "-216 -56 -471"
+"spawnflags" "1"
+"classname" "logic_auto"
+"OnMapSpawn" "viewcontrol_credits,Enable,,0,-1"
+"OnMapSpawn" "logic_ending_credits,Trigger,,0.5,-1"
+"OnMapSpawn" "weaponstrip_end_game,Strip,,0,-1"
+}
+{
+"origin" "-208 -80 -464"
+"targetname" "weaponstrip_end_game"
+"classname" "player_weaponstrip"
+}
+{
+"origin" "-200 -56 -409"
+"targetname" "credits"
+"classname" "env_credits"
+"OnCreditsDone" "menu,Command,startupmenu force,2,-1"
+}
+{
+"origin" "-128 -88 -393"
+"targetname" "menu"
+"classname" "point_clientcommand"
+}
+{
+"origin" "-128 -70 -424"
+"message" "song_credits_2"
+"targetname" "hl1_song25"
+"spawnflags" "48"
+"radius" "1250"
+"cspinup" "0"
+"lfomodvol" "0"
+"lfomodpitch" "0"
+"lforate" "0"
+"lfotype" "0"
+"spindown" "0"
+"spinup" "0"
+"pitchstart" "100"
+"pitch" "100"
+"fadeout" "0"
+"fadein" "0"
+"volstart" "0"
+"preset" "0"
+"health" "10"
+"classname" "ambient_generic"
+}
+{
+"origin" "-215 -118.696 -377.775"
+"_distance" "0"
+"_quadratic_attn" "1"
+"_linear_attn" "0"
+"_constant_attn" "0"
+"style" "0"
+"_light" "255 255 255 1"
+"classname" "light"
+}
+ 
